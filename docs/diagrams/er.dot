@@ -1,0 +1,53 @@
+digraph ER {
+  graph [rankdir=LR, fontname="Helvetica", nodesep=0.5, ranksep=0.9, pad=0.2];
+  node [shape=plain, fontname="Helvetica", fontsize=9.5];
+  edge [fontname="Helvetica", fontsize=8.5, color="#55566e", arrowhead=crow, arrowtail=tee, dir=both];
+  users [label=<<table border="1" cellborder="0" cellspacing="0" cellpadding="3" color="#6554f4">
+    <tr><td bgcolor="#6554f4"><font color="white"><b>users</b></font></td></tr>
+    <tr><td align="left"><u>_id</u> ObjectId (PK)</td></tr>
+    <tr><td align="left">name String</td></tr>
+    <tr><td align="left">email String  <i>UNIQUE</i></td></tr>
+    <tr><td align="left">passwordHash String (bcrypt)</td></tr>
+    <tr><td align="left">role customer | admin</td></tr>
+    <tr><td align="left">createdAt, updatedAt</td></tr></table>>];
+  lots [label=<<table border="1" cellborder="0" cellspacing="0" cellpadding="3" color="#6554f4">
+    <tr><td bgcolor="#6554f4"><font color="white"><b>parkinglots</b></font></td></tr>
+    <tr><td align="left"><u>_id</u> ObjectId (PK)</td></tr>
+    <tr><td align="left">name, area, address String</td></tr>
+    <tr><td align="left">type Mall|Office|Transit|Hospital|Event</td></tr>
+    <tr><td align="left">price Number (per hour)</td></tr>
+    <tr><td align="left">total Int 1..500 (spots)</td></tr>
+    <tr><td align="left">rating, features[], active</td></tr>
+    <tr><td align="left"><i>IDX (area, active); TEXT(name,address,area)</i></td></tr></table>>];
+  bookings [label=<<table border="1" cellborder="0" cellspacing="0" cellpadding="3" color="#6554f4">
+    <tr><td bgcolor="#6554f4"><font color="white"><b>bookings</b></font></td></tr>
+    <tr><td align="left"><u>_id</u> ObjectId (PK)</td></tr>
+    <tr><td align="left">reference String  <i>UNIQUE</i></td></tr>
+    <tr><td align="left">userId → users (FK)</td></tr>
+    <tr><td align="left">lotId → parkinglots (FK)</td></tr>
+    <tr><td align="left">lotName (snapshot), slot</td></tr>
+    <tr><td align="left">date, startHour, endHour</td></tr>
+    <tr><td align="left">amount, vehicle, plate</td></tr>
+    <tr><td align="left">status Confirmed|Completed|Cancelled</td></tr>
+    <tr><td align="left"><i>IDX (userId, createdAt); (lotId, date, status); (status, date)</i></td></tr></table>>];
+  segs [label=<<table border="1" cellborder="0" cellspacing="0" cellpadding="3" color="#1ca87e">
+    <tr><td bgcolor="#1ca87e"><font color="white"><b>bookingsegments</b> (one per booked hour)</font></td></tr>
+    <tr><td align="left"><u>_id</u> ObjectId (PK)</td></tr>
+    <tr><td align="left">bookingId → bookings (FK)</td></tr>
+    <tr><td align="left">lotId, date, slot, hour 0..23</td></tr>
+    <tr><td align="left">vehicleKey (normalised plate)</td></tr>
+    <tr><td align="left"><b>UNIQUE (lotId, date, slot, hour)</b></td></tr>
+    <tr><td align="left"><b>UNIQUE (vehicleKey, date, hour)</b></td></tr>
+    <tr><td align="left"><i>IDX (lotId, date, hour); (bookingId)</i></td></tr></table>>];
+  events [label=<<table border="1" cellborder="0" cellspacing="0" cellpadding="3" color="#8a8aa0">
+    <tr><td bgcolor="#8a8aa0"><font color="white"><b>parkingevents</b> (audit log)</font></td></tr>
+    <tr><td align="left"><u>_id</u> ObjectId (PK)</td></tr>
+    <tr><td align="left">actorId → users</td></tr>
+    <tr><td align="left">action, entityType, entityId</td></tr>
+    <tr><td align="left">details, createdAt <i>IDX desc</i></td></tr></table>>];
+  users -> bookings [label="1 : N"];
+  lots -> bookings [label="1 : N"];
+  bookings -> segs [label="1 : N (hours)"];
+  lots -> segs [label="1 : N"];
+  users -> events [label="1 : N", style=dashed];
+}

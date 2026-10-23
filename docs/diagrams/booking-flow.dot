@@ -1,0 +1,18 @@
+digraph F {
+  graph [rankdir=TB, fontname="Helvetica", nodesep=0.3, ranksep=0.32, pad=0.2];
+  node [shape=box, style="rounded,filled", fillcolor="#f4f3ff", color="#6554f4", fontname="Helvetica", fontsize=9.5];
+  edge [fontname="Helvetica", fontsize=8.5, color="#55566e"];
+  a [label="POST /api/bookings  (JWT)"];
+  b [label="Validate input (zod): ids, real date, whole hours,\nplate format; not in the past; ≤ 60 days ahead;\nspot exists in this lot"];
+  c [label="BEGIN multi-document transaction"];
+  d [label="INSERT booking {reference, userId, lotId, slot,\ndate, startHour, endHour, amount, status}"];
+  e [label="INSERT one segment per hour\n{lotId, date, slot, hour, vehicleKey, bookingId}"];
+  f [label="Unique index violated?\n(spot-hour or vehicle-hour)", shape=diamond, fillcolor="#fff6ef", color="#ff9b64"];
+  g [label="ABORT: nothing is written\n→ 409 Conflict", fillcolor="#ffe3e8", color="#c73a55"];
+  h [label="COMMIT: booking and all segments\nbecome visible together → 201 Created", fillcolor="#e4f9f0", color="#1ca87e"];
+  i [label="WriteConflict (two transactions race)\n→ driver retries the whole transaction", style="rounded,dashed", fillcolor="#ffffff"];
+  a -> b -> c -> d -> e -> f;
+  f -> g [label="yes"];
+  f -> h [label="no"];
+  e -> i [style=dashed]; i -> c [style=dashed];
+}

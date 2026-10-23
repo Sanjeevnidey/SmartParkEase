@@ -1,0 +1,93 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Description: >
+  ParkEase API on AWS Lambda behind an API Gateway HTTP API. One function serves the whole
+  Express app, including ML demand inference. Deploy with `sam deploy --guided` (see docs/AWS_DEPLOYMENT.md).
+  Delete everything with `sam delete --stack-name parkease-api`.
+
+Parameters:
+  MongoUri:
+    Type: String
+    NoEcho: true
+    Description: MongoDB Atlas connection string (replica set, transactions required)
+  JwtSecret:
+    Type: String
+    NoEcho: true
+    MinLength: 32
+    Description: Random secret of at least 32 characters for signing JWTs
+  ClientOrigin:
+    Type: String
+    Description: Comma-separated frontend origins allowed by CORS (e.g. https://d123.cloudfront.net)
+  AppTimezone:
+    Type: String
+    Default: UTC
+    Description: IANA timezone of the parking network (e.g. Asia/Kolkata)
+
+Globals:
+  Function:
+    Runtime: nodejs22.x
+    Architectures: [arm64]       # about 20% cheaper per GB-second than x86
+    MemorySize: 512
+    Timeout: 15
+
+Resources:
+  ApiFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      FunctionName: parkease-api
+      CodeUri: ../backend/
+      Handler: src/index.handler
+      # No reserved concurrency: new accounts have a 10-execution account limit and AWS refuses
+      # reservations that leave fewer than 10 unreserved. The HTTP API throttle below caps load instead.
+      Environment:
+        Variables:
+          MONGODB_URI: !Ref MongoUri
+          JWT_SECRET: !Ref JwtSecret
+          CLIENT_ORIGIN: !Ref ClientOrigin
+          APP_TIMEZONE: !Ref AppTimezone
+          NODE_ENV: production
+      LoggingConfig:
+        LogGroup: !Ref ApiLogGroup
+      Events:
+        Api:
+          Type: HttpApi
+          Properties:
+            ApiId: !Ref HttpApi
+            Path: /{proxy+}
+            Method: ANY
+
+  HttpApi:
+    Type: AWS::Serverless::HttpApi
+    Properties:
+      # Account-wide backstop to the app's own rate limits.
+      DefaultRouteSettings:
+        ThrottlingBurstLimit: 20
+        ThrottlingRateLimit: 10
+
+  ApiLogGroup:
+    Type: AWS::Logs::LogGroup
+    Properties:
+      LogGroupName: /aws/lambda/parkease-api
+      RetentionInDays: 7         # keeps CloudWatch storage cost near zero
+
+  ErrorAlarm:
+    Type: AWS::CloudWatch::Alarm
+    Properties:
+      AlarmName: parkease-api-errors
+      AlarmDescription: Lambda errors in the last 5 minutes
+      Namespace: AWS/Lambda
+      MetricName: Errors
+      Dimensions: [{ Name: FunctionName, Value: !Ref ApiFunction }]
+      Statistic: Sum
+      Period: 300
+      EvaluationPeriods: 1
+      Threshold: 1
+      ComparisonOperator: GreaterThanOrEqualToThreshold
+      TreatMissingData: notBreaching
+
+Outputs:
+  ApiBaseUrl:
+    Description: Use as VITE_API_BASE_URL when building the frontend
+    Value: !Sub https://${HttpApi}.execute-api.${AWS::Region}.amazonaws.com/api
+  HealthUrl:
+    Value: !Sub https://${HttpApi}.execute-api.${AWS::Region}.amazonaws.com/api/health

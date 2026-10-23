@@ -1,0 +1,23 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Dependencies
+node_modules/
+
+# Build output
+frontend/dist/
+backend/.aws-sam/
+*.zip
+
+# Python
+__pycache__/
+.venv/
+ml/data/
+
+# OS files
+.DS_Store
+__MACOSX/
+e2e/screenshots/
+docs/paper/pg-*

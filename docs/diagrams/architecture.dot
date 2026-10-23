@@ -1,0 +1,32 @@
+digraph G {
+  graph [rankdir=LR, fontname="Helvetica", fontsize=11, nodesep=0.35, ranksep=0.55, pad=0.2, bgcolor="white"];
+  node  [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=10, fillcolor="#f4f3ff", color="#6554f4", penwidth=1.2];
+  edge  [fontname="Helvetica", fontsize=8.5, color="#55566e"];
+
+  user [label="User browser\n(React SPA)", shape=box, fillcolor="#ffffff"];
+  subgraph cluster_aws { label="AWS (us-east-1)"; style="rounded,dashed"; color="#ff9b64"; fontcolor="#b05a20";
+    cf  [label="Amazon CloudFront\nHTTPS, security headers"];
+    s3  [label="Amazon S3 (private)\nbuilt frontend"];
+    apigw [label="API Gateway HTTP API\nthrottle 10 req/s, burst 20"];
+    lambda [label="AWS Lambda (Node 22, arm64)\nExpress app: auth, lots, bookings,\nadmin analytics, ML inference", fillcolor="#e9e6ff"];
+    cw [label="CloudWatch\nlogs (7-day) + error alarm"];
+    budget [label="AWS Budgets\nemail alerts"];
+  }
+  atlas [label="MongoDB Atlas\nreplica set\n(users, parkinglots, bookings,\nbookingsegments, parkingevents)", shape=cylinder, fillcolor="#e4f9f0", color="#1ca87e"];
+  render [label="Render web service\n(existing, kept as fallback)", style="rounded,dashed", fillcolor="#ffffff"];
+  subgraph cluster_ml { label="Offline ML pipeline (Python)"; style="rounded,dashed"; color="#8a8aa0";
+    gen [label="generate_synthetic.py\n+ export of real bookings"];
+    train [label="train.py\nscikit-learn RandomForest"];
+    model [label="demand-model.json\n(exported forest)", shape=note, fillcolor="#fff6ef", color="#ff9b64"];
+  }
+  user -> cf [label="GET pages"];
+  cf -> s3 [label="OAC signed"];
+  user -> apigw [label="REST + JWT"];
+  apigw -> lambda;
+  lambda -> atlas [label="TLS, transactions"];
+  lambda -> cw [style=dashed];
+  user -> render [style=dashed, label="alternative API URL"];
+  render -> atlas [style=dashed];
+  gen -> train -> model;
+  model -> lambda [style=dashed, label="bundled at deploy"];
+}

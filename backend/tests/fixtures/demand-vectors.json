@@ -1,0 +1,4502 @@
+[
+ {
+  "input": {
+   "lotType": "Transit",
+   "capacity": 40.0,
+   "price": 15.0,
+   "date": "2025-11-06",
+   "hour": 20
+  },
+  "probabilities": {
+   "high": 0.02451,
+   "low": 0.799978,
+   "medium": 0.175512
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Transit",
+   "capacity": 80.0,
+   "price": 20.0,
+   "date": "2025-11-19",
+   "hour": 2
+  },
+  "probabilities": {
+   "high": 0.002887,
+   "low": 0.962344,
+   "medium": 0.034769
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Mall",
+   "capacity": 48.0,
+   "price": 40.0,
+   "date": "2025-12-21",
+   "hour": 16
+  },
+  "probabilities": {
+   "high": 0.683666,
+   "low": 0.01615,
+   "medium": 0.300184
+  },
+  "level": "high"
+ },
+ {
+  "input": {
+   "lotType": "Mall",
+   "capacity": 62.0,
+   "price": 50.0,
+   "date": "2025-12-08",
+   "hour": 23
+  },
+  "probabilities": {
+   "high": 0.007428,
+   "low": 0.852001,
+   "medium": 0.14057
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Office",
+   "capacity": 120.0,
+   "price": 45.0,
+   "date": "2025-11-04",
+   "hour": 18
+  },
+  "probabilities": {
+   "high": 0.086915,
+   "low": 0.163054,
+   "medium": 0.75003
+  },
+  "level": "medium"
+ },
+ {
+  "input": {
+   "lotType": "Mall",
+   "capacity": 48.0,
+   "price": 40.0,
+   "date": "2025-11-21",
+   "hour": 15
+  },
+  "probabilities": {
+   "high": 0.019843,
+   "low": 0.513464,
+   "medium": 0.466693
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Mall",
+   "capacity": 48.0,
+   "price": 40.0,
+   "date": "2025-12-05",
+   "hour": 15
+  },
+  "probabilities": {
+   "high": 0.019843,
+   "low": 0.513464,
+   "medium": 0.466693
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Mall",
+   "capacity": 62.0,
+   "price": 50.0,
+   "date": "2025-11-24",
+   "hour": 2
+  },
+  "probabilities": {
+   "high": 0.0,
+   "low": 0.997739,
+   "medium": 0.002261
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Transit",
+   "capacity": 40.0,
+   "price": 15.0,
+   "date": "2025-12-05",
+   "hour": 10
+  },
+  "probabilities": {
+   "high": 0.946323,
+   "low": 0.001882,
+   "medium": 0.051796
+  },
+  "level": "high"
+ },
+ {
+  "input": {
+   "lotType": "Mall",
+   "capacity": 150.0,
+   "price": 25.0,
+   "date": "2025-11-04",
+   "hour": 8
+  },
+  "probabilities": {
+   "high": 0.003762,
+   "low": 0.950887,
+   "medium": 0.045351
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Office",
+   "capacity": 120.0,
+   "price": 45.0,
+   "date": "2025-12-21",
+   "hour": 23
+  },
+  "probabilities": {
+   "high": 0.0,
+   "low": 0.989615,
+   "medium": 0.010385
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Event",
+   "capacity": 52.0,
+   "price": 35.0,
+   "date": "2025-11-18",
+   "hour": 1
+  },
+  "probabilities": {
+   "high": 0.0,
+   "low": 1.0,
+   "medium": 0.0
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Office",
+   "capacity": 120.0,
+   "price": 45.0,
+   "date": "2025-11-30",
+   "hour": 1
+  },
+  "probabilities": {
+   "high": 0.0,
+   "low": 1.0,
+   "medium": 0.0
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Event",
+   "capacity": 200.0,
+   "price": 60.0,
+   "date": "2025-12-04",
+   "hour": 1
+  },
+  "probabilities": {
+   "high": 0.0,
+   "low": 1.0,
+   "medium": 0.0
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Office",
+   "capacity": 36.0,
+   "price": 30.0,
+   "date": "2025-12-25",
+   "hour": 11
+  },
+  "probabilities": {
+   "high": 0.833303,
+   "low": 0.00066,
+   "medium": 0.166037
+  },
+  "level": "high"
+ },
+ {
+  "input": {
+   "lotType": "Transit",
+   "capacity": 40.0,
+   "price": 15.0,
+   "date": "2025-11-09",
+   "hour": 14
+  },
+  "probabilities": {
+   "high": 0.0,
+   "low": 0.29537,
+   "medium": 0.70463
+  },
+  "level": "medium"
+ },
+ {
+  "input": {
+   "lotType": "Hospital",
+   "capacity": 40.0,
+   "price": 25.0,
+   "date": "2025-12-19",
+   "hour": 11
+  },
+  "probabilities": {
+   "high": 0.564888,
+   "low": 0.00342,
+   "medium": 0.431692
+  },
+  "level": "high"
+ },
+ {
+  "input": {
+   "lotType": "Transit",
+   "capacity": 40.0,
+   "price": 15.0,
+   "date": "2025-11-15",
+   "hour": 5
+  },
+  "probabilities": {
+   "high": 0.0,
+   "low": 0.925199,
+   "medium": 0.074801
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Hospital",
+   "capacity": 90.0,
+   "price": 35.0,
+   "date": "2025-12-15",
+   "hour": 13
+  },
+  "probabilities": {
+   "high": 0.433423,
+   "low": 0.000869,
+   "medium": 0.565708
+  },
+  "level": "medium"
+ },
+ {
+  "input": {
+   "lotType": "Transit",
+   "capacity": 40.0,
+   "price": 15.0,
+   "date": "2025-12-24",
+   "hour": 5
+  },
+  "probabilities": {
+   "high": 0.012725,
+   "low": 0.885529,
+   "medium": 0.101746
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Mall",
+   "capacity": 62.0,
+   "price": 50.0,
+   "date": "2025-12-21",
+   "hour": 10
+  },
+  "probabilities": {
+   "high": 0.128268,
+   "low": 0.118441,
+   "medium": 0.753291
+  },
+  "level": "medium"
+ },
+ {
+  "input": {
+   "lotType": "Office",
+   "capacity": 120.0,
+   "price": 45.0,
+   "date": "2025-11-10",
+   "hour": 23
+  },
+  "probabilities": {
+   "high": 0.008333,
+   "low": 0.968516,
+   "medium": 0.02315
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Transit",
+   "capacity": 80.0,
+   "price": 20.0,
+   "date": "2025-11-03",
+   "hour": 18
+  },
+  "probabilities": {
+   "high": 0.065938,
+   "low": 0.089338,
+   "medium": 0.844724
+  },
+  "level": "medium"
+ },
+ {
+  "input": {
+   "lotType": "Transit",
+   "capacity": 80.0,
+   "price": 20.0,
+   "date": "2025-11-27",
+   "hour": 12
+  },
+  "probabilities": {
+   "high": 0.962701,
+   "low": 0.0,
+   "medium": 0.037299
+  },
+  "level": "high"
+ },
+ {
+  "input": {
+   "lotType": "Event",
+   "capacity": 200.0,
+   "price": 60.0,
+   "date": "2025-11-25",
+   "hour": 12
+  },
+  "probabilities": {
+   "high": 0.0,
+   "low": 0.996032,
+   "medium": 0.003968
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Office",
+   "capacity": 36.0,
+   "price": 30.0,
+   "date": "2025-11-11",
+   "hour": 11
+  },
+  "probabilities": {
+   "high": 0.769273,
+   "low": 0.001403,
+   "medium": 0.229324
+  },
+  "level": "high"
+ },
+ {
+  "input": {
+   "lotType": "Office",
+   "capacity": 120.0,
+   "price": 45.0,
+   "date": "2025-11-11",
+   "hour": 17
+  },
+  "probabilities": {
+   "high": 0.086915,
+   "low": 0.135777,
+   "medium": 0.777308
+  },
+  "level": "medium"
+ },
+ {
+  "input": {
+   "lotType": "Office",
+   "capacity": 24.0,
+   "price": 20.0,
+   "date": "2025-11-01",
+   "hour": 20
+  },
+  "probabilities": {
+   "high": 0.0,
+   "low": 0.959661,
+   "medium": 0.040339
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Mall",
+   "capacity": 150.0,
+   "price": 25.0,
+   "date": "2025-12-16",
+   "hour": 0
+  },
+  "probabilities": {
+   "high": 0.0,
+   "low": 0.999291,
+   "medium": 0.000709
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Office",
+   "capacity": 120.0,
+   "price": 45.0,
+   "date": "2025-11-08",
+   "hour": 23
+  },
+  "probabilities": {
+   "high": 0.0,
+   "low": 0.974098,
+   "medium": 0.025902
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Transit",
+   "capacity": 40.0,
+   "price": 15.0,
+   "date": "2025-12-18",
+   "hour": 7
+  },
+  "probabilities": {
+   "high": 0.874516,
+   "low": 0.005426,
+   "medium": 0.120058
+  },
+  "level": "high"
+ },
+ {
+  "input": {
+   "lotType": "Office",
+   "capacity": 24.0,
+   "price": 20.0,
+   "date": "2025-11-04",
+   "hour": 8
+  },
+  "probabilities": {
+   "high": 0.18519,
+   "low": 0.06275,
+   "medium": 0.75206
+  },
+  "level": "medium"
+ },
+ {
+  "input": {
+   "lotType": "Mall",
+   "capacity": 150.0,
+   "price": 25.0,
+   "date": "2025-12-18",
+   "hour": 17
+  },
+  "probabilities": {
+   "high": 0.416091,
+   "low": 0.014025,
+   "medium": 0.569884
+  },
+  "level": "medium"
+ },
+ {
+  "input": {
+   "lotType": "Hospital",
+   "capacity": 40.0,
+   "price": 25.0,
+   "date": "2025-11-10",
+   "hour": 18
+  },
+  "probabilities": {
+   "high": 0.584611,
+   "low": 0.018723,
+   "medium": 0.396666
+  },
+  "level": "high"
+ },
+ {
+  "input": {
+   "lotType": "Transit",
+   "capacity": 80.0,
+   "price": 20.0,
+   "date": "2025-12-31",
+   "hour": 10
+  },
+  "probabilities": {
+   "high": 0.986142,
+   "low": 0.0,
+   "medium": 0.013858
+  },
+  "level": "high"
+ },
+ {
+  "input": {
+   "lotType": "Mall",
+   "capacity": 150.0,
+   "price": 25.0,
+   "date": "2025-11-04",
+   "hour": 14
+  },
+  "probabilities": {
+   "high": 0.027756,
+   "low": 0.300678,
+   "medium": 0.671566
+  },
+  "level": "medium"
+ },
+ {
+  "input": {
+   "lotType": "Mall",
+   "capacity": 48.0,
+   "price": 40.0,
+   "date": "2025-12-16",
+   "hour": 8
+  },
+  "probabilities": {
+   "high": 0.002029,
+   "low": 0.96107,
+   "medium": 0.036901
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Office",
+   "capacity": 120.0,
+   "price": 45.0,
+   "date": "2025-11-14",
+   "hour": 8
+  },
+  "probabilities": {
+   "high": 0.104115,
+   "low": 0.102943,
+   "medium": 0.792942
+  },
+  "level": "medium"
+ },
+ {
+  "input": {
+   "lotType": "Transit",
+   "capacity": 80.0,
+   "price": 20.0,
+   "date": "2025-12-09",
+   "hour": 5
+  },
+  "probabilities": {
+   "high": 0.008685,
+   "low": 0.902703,
+   "medium": 0.088612
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Hospital",
+   "capacity": 90.0,
+   "price": 35.0,
+   "date": "2025-12-10",
+   "hour": 16
+  },
+  "probabilities": {
+   "high": 0.544758,
+   "low": 0.006397,
+   "medium": 0.448845
+  },
+  "level": "high"
+ },
+ {
+  "input": {
+   "lotType": "Mall",
+   "capacity": 48.0,
+   "price": 40.0,
+   "date": "2025-12-27",
+   "hour": 17
+  },
+  "probabilities": {
+   "high": 0.778657,
+   "low": 0.012434,
+   "medium": 0.208909
+  },
+  "level": "high"
+ },
+ {
+  "input": {
+   "lotType": "Event",
+   "capacity": 52.0,
+   "price": 35.0,
+   "date": "2025-12-11",
+   "hour": 2
+  },
+  "probabilities": {
+   "high": 0.0,
+   "low": 1.0,
+   "medium": 0.0
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Office",
+   "capacity": 36.0,
+   "price": 30.0,
+   "date": "2025-11-06",
+   "hour": 0
+  },
+  "probabilities": {
+   "high": 0.0,
+   "low": 0.965641,
+   "medium": 0.034359
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Hospital",
+   "capacity": 90.0,
+   "price": 35.0,
+   "date": "2025-11-18",
+   "hour": 6
+  },
+  "probabilities": {
+   "high": 0.0,
+   "low": 0.7011,
+   "medium": 0.2989
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Event",
+   "capacity": 52.0,
+   "price": 35.0,
+   "date": "2025-11-18",
+   "hour": 22
+  },
+  "probabilities": {
+   "high": 0.038754,
+   "low": 0.215889,
+   "medium": 0.745356
+  },
+  "level": "medium"
+ },
+ {
+  "input": {
+   "lotType": "Mall",
+   "capacity": 62.0,
+   "price": 50.0,
+   "date": "2025-11-30",
+   "hour": 20
+  },
+  "probabilities": {
+   "high": 0.145939,
+   "low": 0.061924,
+   "medium": 0.792137
+  },
+  "level": "medium"
+ },
+ {
+  "input": {
+   "lotType": "Mall",
+   "capacity": 150.0,
+   "price": 25.0,
+   "date": "2025-12-08",
+   "hour": 12
+  },
+  "probabilities": {
+   "high": 0.019543,
+   "low": 0.328334,
+   "medium": 0.652122
+  },
+  "level": "medium"
+ },
+ {
+  "input": {
+   "lotType": "Event",
+   "capacity": 52.0,
+   "price": 35.0,
+   "date": "2025-11-30",
+   "hour": 14
+  },
+  "probabilities": {
+   "high": 0.0,
+   "low": 0.625355,
+   "medium": 0.374645
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Mall",
+   "capacity": 150.0,
+   "price": 25.0,
+   "date": "2025-12-17",
+   "hour": 17
+  },
+  "probabilities": {
+   "high": 0.385772,
+   "low": 0.014579,
+   "medium": 0.599649
+  },
+  "level": "medium"
+ },
+ {
+  "input": {
+   "lotType": "Mall",
+   "capacity": 150.0,
+   "price": 25.0,
+   "date": "2025-11-08",
+   "hour": 6
+  },
+  "probabilities": {
+   "high": 0.0,
+   "low": 0.947509,
+   "medium": 0.052491
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Event",
+   "capacity": 200.0,
+   "price": 60.0,
+   "date": "2025-12-25",
+   "hour": 11
+  },
+  "probabilities": {
+   "high": 0.0,
+   "low": 1.0,
+   "medium": 0.0
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Office",
+   "capacity": 120.0,
+   "price": 45.0,
+   "date": "2025-11-18",
+   "hour": 0
+  },
+  "probabilities": {
+   "high": 0.0,
+   "low": 0.993571,
+   "medium": 0.006429
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Mall",
+   "capacity": 150.0,
+   "price": 25.0,
+   "date": "2025-11-23",
+   "hour": 7
+  },
+  "probabilities": {
+   "high": 0.079425,
+   "low": 0.834472,
+   "medium": 0.086103
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Mall",
+   "capacity": 62.0,
+   "price": 50.0,
+   "date": "2025-12-04",
+   "hour": 18
+  },
+  "probabilities": {
+   "high": 0.080882,
+   "low": 0.038346,
+   "medium": 0.880772
+  },
+  "level": "medium"
+ },
+ {
+  "input": {
+   "lotType": "Office",
+   "capacity": 24.0,
+   "price": 20.0,
+   "date": "2025-11-01",
+   "hour": 4
+  },
+  "probabilities": {
+   "high": 0.0,
+   "low": 0.991299,
+   "medium": 0.008701
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Office",
+   "capacity": 24.0,
+   "price": 20.0,
+   "date": "2025-12-27",
+   "hour": 11
+  },
+  "probabilities": {
+   "high": 0.0,
+   "low": 0.931846,
+   "medium": 0.068154
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Transit",
+   "capacity": 80.0,
+   "price": 20.0,
+   "date": "2025-12-11",
+   "hour": 1
+  },
+  "probabilities": {
+   "high": 0.009758,
+   "low": 0.94265,
+   "medium": 0.047592
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Event",
+   "capacity": 52.0,
+   "price": 35.0,
+   "date": "2025-11-01",
+   "hour": 8
+  },
+  "probabilities": {
+   "high": 0.009649,
+   "low": 0.971757,
+   "medium": 0.018594
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Hospital",
+   "capacity": 90.0,
+   "price": 35.0,
+   "date": "2025-12-18",
+   "hour": 2
+  },
+  "probabilities": {
+   "high": 0.0,
+   "low": 0.803331,
+   "medium": 0.196669
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Office",
+   "capacity": 24.0,
+   "price": 20.0,
+   "date": "2025-12-28",
+   "hour": 10
+  },
+  "probabilities": {
+   "high": 0.0,
+   "low": 0.970578,
+   "medium": 0.029422
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Event",
+   "capacity": 200.0,
+   "price": 60.0,
+   "date": "2025-12-18",
+   "hour": 6
+  },
+  "probabilities": {
+   "high": 0.0,
+   "low": 0.997849,
+   "medium": 0.002151
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Mall",
+   "capacity": 48.0,
+   "price": 40.0,
+   "date": "2025-11-15",
+   "hour": 0
+  },
+  "probabilities": {
+   "high": 0.0,
+   "low": 0.997024,
+   "medium": 0.002976
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Event",
+   "capacity": 200.0,
+   "price": 60.0,
+   "date": "2025-11-27",
+   "hour": 20
+  },
+  "probabilities": {
+   "high": 0.038043,
+   "low": 0.683227,
+   "medium": 0.278731
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Mall",
+   "capacity": 62.0,
+   "price": 50.0,
+   "date": "2025-11-06",
+   "hour": 21
+  },
+  "probabilities": {
+   "high": 0.028601,
+   "low": 0.430557,
+   "medium": 0.540842
+  },
+  "level": "medium"
+ },
+ {
+  "input": {
+   "lotType": "Mall",
+   "capacity": 62.0,
+   "price": 50.0,
+   "date": "2025-12-27",
+   "hour": 4
+  },
+  "probabilities": {
+   "high": 0.0,
+   "low": 1.0,
+   "medium": 0.0
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Hospital",
+   "capacity": 90.0,
+   "price": 35.0,
+   "date": "2025-11-03",
+   "hour": 3
+  },
+  "probabilities": {
+   "high": 0.002137,
+   "low": 0.832343,
+   "medium": 0.165521
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Hospital",
+   "capacity": 40.0,
+   "price": 25.0,
+   "date": "2025-11-23",
+   "hour": 18
+  },
+  "probabilities": {
+   "high": 0.238733,
+   "low": 0.0192,
+   "medium": 0.742067
+  },
+  "level": "medium"
+ },
+ {
+  "input": {
+   "lotType": "Office",
+   "capacity": 24.0,
+   "price": 20.0,
+   "date": "2025-11-14",
+   "hour": 0
+  },
+  "probabilities": {
+   "high": 0.0,
+   "low": 0.905381,
+   "medium": 0.094619
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Office",
+   "capacity": 36.0,
+   "price": 30.0,
+   "date": "2025-11-23",
+   "hour": 4
+  },
+  "probabilities": {
+   "high": 0.0,
+   "low": 0.975613,
+   "medium": 0.024387
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Hospital",
+   "capacity": 40.0,
+   "price": 25.0,
+   "date": "2025-12-28",
+   "hour": 3
+  },
+  "probabilities": {
+   "high": 0.000362,
+   "low": 0.734937,
+   "medium": 0.264701
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Mall",
+   "capacity": 62.0,
+   "price": 50.0,
+   "date": "2025-11-28",
+   "hour": 3
+  },
+  "probabilities": {
+   "high": 0.0,
+   "low": 0.984606,
+   "medium": 0.015394
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Transit",
+   "capacity": 80.0,
+   "price": 20.0,
+   "date": "2025-12-16",
+   "hour": 7
+  },
+  "probabilities": {
+   "high": 0.932128,
+   "low": 0.000309,
+   "medium": 0.067563
+  },
+  "level": "high"
+ },
+ {
+  "input": {
+   "lotType": "Mall",
+   "capacity": 150.0,
+   "price": 25.0,
+   "date": "2025-12-12",
+   "hour": 5
+  },
+  "probabilities": {
+   "high": 0.0,
+   "low": 0.983225,
+   "medium": 0.016775
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Hospital",
+   "capacity": 40.0,
+   "price": 25.0,
+   "date": "2025-12-02",
+   "hour": 7
+  },
+  "probabilities": {
+   "high": 0.049192,
+   "low": 0.546068,
+   "medium": 0.40474
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Office",
+   "capacity": 24.0,
+   "price": 20.0,
+   "date": "2025-11-21",
+   "hour": 11
+  },
+  "probabilities": {
+   "high": 0.856114,
+   "low": 0.003257,
+   "medium": 0.140629
+  },
+  "level": "high"
+ },
+ {
+  "input": {
+   "lotType": "Office",
+   "capacity": 36.0,
+   "price": 30.0,
+   "date": "2025-12-02",
+   "hour": 8
+  },
+  "probabilities": {
+   "high": 0.137785,
+   "low": 0.1067,
+   "medium": 0.755515
+  },
+  "level": "medium"
+ },
+ {
+  "input": {
+   "lotType": "Hospital",
+   "capacity": 40.0,
+   "price": 25.0,
+   "date": "2025-11-28",
+   "hour": 13
+  },
+  "probabilities": {
+   "high": 0.631286,
+   "low": 0.004033,
+   "medium": 0.364682
+  },
+  "level": "high"
+ },
+ {
+  "input": {
+   "lotType": "Event",
+   "capacity": 200.0,
+   "price": 60.0,
+   "date": "2025-12-24",
+   "hour": 15
+  },
+  "probabilities": {
+   "high": 0.0,
+   "low": 0.998227,
+   "medium": 0.001773
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Mall",
+   "capacity": 48.0,
+   "price": 40.0,
+   "date": "2025-12-18",
+   "hour": 17
+  },
+  "probabilities": {
+   "high": 0.251225,
+   "low": 0.035576,
+   "medium": 0.713199
+  },
+  "level": "medium"
+ },
+ {
+  "input": {
+   "lotType": "Hospital",
+   "capacity": 40.0,
+   "price": 25.0,
+   "date": "2025-12-17",
+   "hour": 20
+  },
+  "probabilities": {
+   "high": 0.033495,
+   "low": 0.549674,
+   "medium": 0.416831
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Transit",
+   "capacity": 80.0,
+   "price": 20.0,
+   "date": "2025-12-02",
+   "hour": 19
+  },
+  "probabilities": {
+   "high": 0.07897,
+   "low": 0.089656,
+   "medium": 0.831373
+  },
+  "level": "medium"
+ },
+ {
+  "input": {
+   "lotType": "Event",
+   "capacity": 200.0,
+   "price": 60.0,
+   "date": "2025-11-24",
+   "hour": 20
+  },
+  "probabilities": {
+   "high": 0.02545,
+   "low": 0.63923,
+   "medium": 0.335319
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Hospital",
+   "capacity": 90.0,
+   "price": 35.0,
+   "date": "2025-12-03",
+   "hour": 1
+  },
+  "probabilities": {
+   "high": 0.0,
+   "low": 0.789297,
+   "medium": 0.210703
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Office",
+   "capacity": 120.0,
+   "price": 45.0,
+   "date": "2025-12-09",
+   "hour": 9
+  },
+  "probabilities": {
+   "high": 0.647871,
+   "low": 0.012969,
+   "medium": 0.33916
+  },
+  "level": "high"
+ },
+ {
+  "input": {
+   "lotType": "Office",
+   "capacity": 120.0,
+   "price": 45.0,
+   "date": "2025-12-05",
+   "hour": 23
+  },
+  "probabilities": {
+   "high": 0.002525,
+   "low": 0.96798,
+   "medium": 0.029495
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Mall",
+   "capacity": 150.0,
+   "price": 25.0,
+   "date": "2025-12-26",
+   "hour": 12
+  },
+  "probabilities": {
+   "high": 0.004434,
+   "low": 0.13058,
+   "medium": 0.864986
+  },
+  "level": "medium"
+ },
+ {
+  "input": {
+   "lotType": "Hospital",
+   "capacity": 40.0,
+   "price": 25.0,
+   "date": "2025-11-12",
+   "hour": 8
+  },
+  "probabilities": {
+   "high": 0.570319,
+   "low": 0.021145,
+   "medium": 0.408536
+  },
+  "level": "high"
+ },
+ {
+  "input": {
+   "lotType": "Event",
+   "capacity": 52.0,
+   "price": 35.0,
+   "date": "2025-12-19",
+   "hour": 16
+  },
+  "probabilities": {
+   "high": 0.005346,
+   "low": 0.953516,
+   "medium": 0.041138
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Mall",
+   "capacity": 48.0,
+   "price": 40.0,
+   "date": "2025-11-16",
+   "hour": 21
+  },
+  "probabilities": {
+   "high": 0.080372,
+   "low": 0.142646,
+   "medium": 0.776982
+  },
+  "level": "medium"
+ },
+ {
+  "input": {
+   "lotType": "Mall",
+   "capacity": 150.0,
+   "price": 25.0,
+   "date": "2025-11-13",
+   "hour": 23
+  },
+  "probabilities": {
+   "high": 0.021024,
+   "low": 0.880602,
+   "medium": 0.098374
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Mall",
+   "capacity": 48.0,
+   "price": 40.0,
+   "date": "2025-11-10",
+   "hour": 22
+  },
+  "probabilities": {
+   "high": 0.034788,
+   "low": 0.814982,
+   "medium": 0.15023
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Event",
+   "capacity": 52.0,
+   "price": 35.0,
+   "date": "2025-11-28",
+   "hour": 14
+  },
+  "probabilities": {
+   "high": 0.005346,
+   "low": 0.954672,
+   "medium": 0.039982
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Mall",
+   "capacity": 62.0,
+   "price": 50.0,
+   "date": "2025-11-05",
+   "hour": 16
+  },
+  "probabilities": {
+   "high": 0.008197,
+   "low": 0.566616,
+   "medium": 0.425187
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Office",
+   "capacity": 36.0,
+   "price": 30.0,
+   "date": "2025-11-04",
+   "hour": 6
+  },
+  "probabilities": {
+   "high": 0.001082,
+   "low": 0.975254,
+   "medium": 0.023664
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Transit",
+   "capacity": 80.0,
+   "price": 20.0,
+   "date": "2025-12-15",
+   "hour": 20
+  },
+  "probabilities": {
+   "high": 0.01882,
+   "low": 0.827892,
+   "medium": 0.153288
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Office",
+   "capacity": 24.0,
+   "price": 20.0,
+   "date": "2025-11-07",
+   "hour": 22
+  },
+  "probabilities": {
+   "high": 0.031076,
+   "low": 0.857311,
+   "medium": 0.111613
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Mall",
+   "capacity": 48.0,
+   "price": 40.0,
+   "date": "2025-12-07",
+   "hour": 6
+  },
+  "probabilities": {
+   "high": 0.002315,
+   "low": 0.983911,
+   "medium": 0.013775
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Mall",
+   "capacity": 48.0,
+   "price": 40.0,
+   "date": "2025-11-28",
+   "hour": 8
+  },
+  "probabilities": {
+   "high": 0.0,
+   "low": 0.964666,
+   "medium": 0.035334
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Hospital",
+   "capacity": 90.0,
+   "price": 35.0,
+   "date": "2025-11-30",
+   "hour": 10
+  },
+  "probabilities": {
+   "high": 0.135569,
+   "low": 0.006495,
+   "medium": 0.857936
+  },
+  "level": "medium"
+ },
+ {
+  "input": {
+   "lotType": "Mall",
+   "capacity": 150.0,
+   "price": 25.0,
+   "date": "2025-11-28",
+   "hour": 23
+  },
+  "probabilities": {
+   "high": 0.058268,
+   "low": 0.849564,
+   "medium": 0.092168
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Office",
+   "capacity": 120.0,
+   "price": 45.0,
+   "date": "2025-12-11",
+   "hour": 4
+  },
+  "probabilities": {
+   "high": 0.0,
+   "low": 0.997531,
+   "medium": 0.002469
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Transit",
+   "capacity": 40.0,
+   "price": 15.0,
+   "date": "2025-11-03",
+   "hour": 21
+  },
+  "probabilities": {
+   "high": 0.044719,
+   "low": 0.783099,
+   "medium": 0.172182
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Office",
+   "capacity": 36.0,
+   "price": 30.0,
+   "date": "2025-12-04",
+   "hour": 8
+  },
+  "probabilities": {
+   "high": 0.176276,
+   "low": 0.100199,
+   "medium": 0.723525
+  },
+  "level": "medium"
+ },
+ {
+  "input": {
+   "lotType": "Mall",
+   "capacity": 62.0,
+   "price": 50.0,
+   "date": "2025-11-23",
+   "hour": 21
+  },
+  "probabilities": {
+   "high": 0.097478,
+   "low": 0.103753,
+   "medium": 0.798769
+  },
+  "level": "medium"
+ },
+ {
+  "input": {
+   "lotType": "Mall",
+   "capacity": 48.0,
+   "price": 40.0,
+   "date": "2025-12-16",
+   "hour": 5
+  },
+  "probabilities": {
+   "high": 0.0,
+   "low": 0.999099,
+   "medium": 0.000901
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Event",
+   "capacity": 200.0,
+   "price": 60.0,
+   "date": "2025-11-04",
+   "hour": 8
+  },
+  "probabilities": {
+   "high": 0.0,
+   "low": 0.996032,
+   "medium": 0.003968
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Mall",
+   "capacity": 150.0,
+   "price": 25.0,
+   "date": "2025-12-01",
+   "hour": 7
+  },
+  "probabilities": {
+   "high": 0.001333,
+   "low": 0.978403,
+   "medium": 0.020263
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Hospital",
+   "capacity": 90.0,
+   "price": 35.0,
+   "date": "2025-11-10",
+   "hour": 8
+  },
+  "probabilities": {
+   "high": 0.414342,
+   "low": 0.036366,
+   "medium": 0.549292
+  },
+  "level": "medium"
+ },
+ {
+  "input": {
+   "lotType": "Transit",
+   "capacity": 80.0,
+   "price": 20.0,
+   "date": "2025-12-15",
+   "hour": 14
+  },
+  "probabilities": {
+   "high": 0.986151,
+   "low": 0.000661,
+   "medium": 0.013188
+  },
+  "level": "high"
+ },
+ {
+  "input": {
+   "lotType": "Office",
+   "capacity": 36.0,
+   "price": 30.0,
+   "date": "2025-11-30",
+   "hour": 7
+  },
+  "probabilities": {
+   "high": 0.0,
+   "low": 0.95282,
+   "medium": 0.04718
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Mall",
+   "capacity": 150.0,
+   "price": 25.0,
+   "date": "2025-12-04",
+   "hour": 2
+  },
+  "probabilities": {
+   "high": 0.0,
+   "low": 0.999231,
+   "medium": 0.000769
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Transit",
+   "capacity": 40.0,
+   "price": 15.0,
+   "date": "2025-12-22",
+   "hour": 8
+  },
+  "probabilities": {
+   "high": 0.963742,
+   "low": 0.006922,
+   "medium": 0.029336
+  },
+  "level": "high"
+ },
+ {
+  "input": {
+   "lotType": "Hospital",
+   "capacity": 40.0,
+   "price": 25.0,
+   "date": "2025-12-26",
+   "hour": 22
+  },
+  "probabilities": {
+   "high": 0.027306,
+   "low": 0.580657,
+   "medium": 0.392037
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Office",
+   "capacity": 36.0,
+   "price": 30.0,
+   "date": "2025-11-30",
+   "hour": 23
+  },
+  "probabilities": {
+   "high": 0.0,
+   "low": 0.939642,
+   "medium": 0.060358
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Office",
+   "capacity": 24.0,
+   "price": 20.0,
+   "date": "2025-11-05",
+   "hour": 16
+  },
+  "probabilities": {
+   "high": 0.842504,
+   "low": 0.013006,
+   "medium": 0.14449
+  },
+  "level": "high"
+ },
+ {
+  "input": {
+   "lotType": "Office",
+   "capacity": 120.0,
+   "price": 45.0,
+   "date": "2025-12-31",
+   "hour": 21
+  },
+  "probabilities": {
+   "high": 0.009697,
+   "low": 0.966076,
+   "medium": 0.024227
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Office",
+   "capacity": 120.0,
+   "price": 45.0,
+   "date": "2025-11-17",
+   "hour": 2
+  },
+  "probabilities": {
+   "high": 0.0,
+   "low": 1.0,
+   "medium": 0.0
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Mall",
+   "capacity": 62.0,
+   "price": 50.0,
+   "date": "2025-12-07",
+   "hour": 23
+  },
+  "probabilities": {
+   "high": 0.06944,
+   "low": 0.687245,
+   "medium": 0.243315
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Mall",
+   "capacity": 150.0,
+   "price": 25.0,
+   "date": "2025-11-01",
+   "hour": 1
+  },
+  "probabilities": {
+   "high": 0.0,
+   "low": 0.988614,
+   "medium": 0.011386
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Mall",
+   "capacity": 48.0,
+   "price": 40.0,
+   "date": "2025-12-18",
+   "hour": 5
+  },
+  "probabilities": {
+   "high": 0.0,
+   "low": 0.997083,
+   "medium": 0.002917
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Transit",
+   "capacity": 40.0,
+   "price": 15.0,
+   "date": "2025-11-28",
+   "hour": 11
+  },
+  "probabilities": {
+   "high": 0.943245,
+   "low": 0.001882,
+   "medium": 0.054873
+  },
+  "level": "high"
+ },
+ {
+  "input": {
+   "lotType": "Event",
+   "capacity": 52.0,
+   "price": 35.0,
+   "date": "2025-12-28",
+   "hour": 19
+  },
+  "probabilities": {
+   "high": 0.096583,
+   "low": 0.253503,
+   "medium": 0.649914
+  },
+  "level": "medium"
+ },
+ {
+  "input": {
+   "lotType": "Office",
+   "capacity": 24.0,
+   "price": 20.0,
+   "date": "2025-11-09",
+   "hour": 22
+  },
+  "probabilities": {
+   "high": 0.0,
+   "low": 0.981423,
+   "medium": 0.018577
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Mall",
+   "capacity": 150.0,
+   "price": 25.0,
+   "date": "2025-12-16",
+   "hour": 4
+  },
+  "probabilities": {
+   "high": 0.0,
+   "low": 0.986349,
+   "medium": 0.013651
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Hospital",
+   "capacity": 90.0,
+   "price": 35.0,
+   "date": "2025-12-06",
+   "hour": 11
+  },
+  "probabilities": {
+   "high": 0.109151,
+   "low": 0.020929,
+   "medium": 0.869921
+  },
+  "level": "medium"
+ },
+ {
+  "input": {
+   "lotType": "Hospital",
+   "capacity": 40.0,
+   "price": 25.0,
+   "date": "2025-11-28",
+   "hour": 23
+  },
+  "probabilities": {
+   "high": 0.027306,
+   "low": 0.582489,
+   "medium": 0.390205
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Event",
+   "capacity": 200.0,
+   "price": 60.0,
+   "date": "2025-12-05",
+   "hour": 12
+  },
+  "probabilities": {
+   "high": 0.004023,
+   "low": 0.995977,
+   "medium": 0.0
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Event",
+   "capacity": 200.0,
+   "price": 60.0,
+   "date": "2025-11-11",
+   "hour": 14
+  },
+  "probabilities": {
+   "high": 0.0,
+   "low": 0.996032,
+   "medium": 0.003968
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Transit",
+   "capacity": 80.0,
+   "price": 20.0,
+   "date": "2025-12-22",
+   "hour": 10
+  },
+  "probabilities": {
+   "high": 0.980081,
+   "low": 0.001016,
+   "medium": 0.018904
+  },
+  "level": "high"
+ },
+ {
+  "input": {
+   "lotType": "Mall",
+   "capacity": 62.0,
+   "price": 50.0,
+   "date": "2025-12-30",
+   "hour": 15
+  },
+  "probabilities": {
+   "high": 0.002758,
+   "low": 0.572992,
+   "medium": 0.42425
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Event",
+   "capacity": 200.0,
+   "price": 60.0,
+   "date": "2025-11-10",
+   "hour": 19
+  },
+  "probabilities": {
+   "high": 0.025851,
+   "low": 0.639925,
+   "medium": 0.334223
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Hospital",
+   "capacity": 40.0,
+   "price": 25.0,
+   "date": "2025-12-30",
+   "hour": 5
+  },
+  "probabilities": {
+   "high": 0.0,
+   "low": 0.568515,
+   "medium": 0.431485
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Hospital",
+   "capacity": 90.0,
+   "price": 35.0,
+   "date": "2025-12-21",
+   "hour": 16
+  },
+  "probabilities": {
+   "high": 0.080543,
+   "low": 0.005026,
+   "medium": 0.914431
+  },
+  "level": "medium"
+ },
+ {
+  "input": {
+   "lotType": "Hospital",
+   "capacity": 40.0,
+   "price": 25.0,
+   "date": "2025-11-03",
+   "hour": 23
+  },
+  "probabilities": {
+   "high": 0.047208,
+   "low": 0.550178,
+   "medium": 0.402614
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Mall",
+   "capacity": 62.0,
+   "price": 50.0,
+   "date": "2025-11-16",
+   "hour": 15
+  },
+  "probabilities": {
+   "high": 0.711944,
+   "low": 0.015419,
+   "medium": 0.272638
+  },
+  "level": "high"
+ },
+ {
+  "input": {
+   "lotType": "Transit",
+   "capacity": 40.0,
+   "price": 15.0,
+   "date": "2025-11-02",
+   "hour": 15
+  },
+  "probabilities": {
+   "high": 0.0,
+   "low": 0.298517,
+   "medium": 0.701483
+  },
+  "level": "medium"
+ },
+ {
+  "input": {
+   "lotType": "Office",
+   "capacity": 24.0,
+   "price": 20.0,
+   "date": "2025-11-29",
+   "hour": 15
+  },
+  "probabilities": {
+   "high": 0.0,
+   "low": 0.918891,
+   "medium": 0.081109
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Mall",
+   "capacity": 48.0,
+   "price": 40.0,
+   "date": "2025-11-28",
+   "hour": 13
+  },
+  "probabilities": {
+   "high": 0.01637,
+   "low": 0.519742,
+   "medium": 0.463887
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Mall",
+   "capacity": 62.0,
+   "price": 50.0,
+   "date": "2025-11-15",
+   "hour": 11
+  },
+  "probabilities": {
+   "high": 0.142703,
+   "low": 0.090398,
+   "medium": 0.766899
+  },
+  "level": "medium"
+ },
+ {
+  "input": {
+   "lotType": "Transit",
+   "capacity": 80.0,
+   "price": 20.0,
+   "date": "2025-12-13",
+   "hour": 8
+  },
+  "probabilities": {
+   "high": 0.0,
+   "low": 0.596923,
+   "medium": 0.403077
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Event",
+   "capacity": 52.0,
+   "price": 35.0,
+   "date": "2025-11-06",
+   "hour": 21
+  },
+  "probabilities": {
+   "high": 0.034973,
+   "low": 0.367431,
+   "medium": 0.597596
+  },
+  "level": "medium"
+ },
+ {
+  "input": {
+   "lotType": "Mall",
+   "capacity": 150.0,
+   "price": 25.0,
+   "date": "2025-11-27",
+   "hour": 16
+  },
+  "probabilities": {
+   "high": 0.032166,
+   "low": 0.235201,
+   "medium": 0.732633
+  },
+  "level": "medium"
+ },
+ {
+  "input": {
+   "lotType": "Office",
+   "capacity": 120.0,
+   "price": 45.0,
+   "date": "2025-11-25",
+   "hour": 9
+  },
+  "probabilities": {
+   "high": 0.647871,
+   "low": 0.012969,
+   "medium": 0.33916
+  },
+  "level": "high"
+ },
+ {
+  "input": {
+   "lotType": "Hospital",
+   "capacity": 40.0,
+   "price": 25.0,
+   "date": "2025-12-04",
+   "hour": 3
+  },
+  "probabilities": {
+   "high": 0.0,
+   "low": 0.649591,
+   "medium": 0.350409
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Transit",
+   "capacity": 40.0,
+   "price": 15.0,
+   "date": "2025-12-17",
+   "hour": 17
+  },
+  "probabilities": {
+   "high": 0.970302,
+   "low": 0.008704,
+   "medium": 0.020994
+  },
+  "level": "high"
+ },
+ {
+  "input": {
+   "lotType": "Mall",
+   "capacity": 48.0,
+   "price": 40.0,
+   "date": "2025-12-28",
+   "hour": 13
+  },
+  "probabilities": {
+   "high": 0.712784,
+   "low": 0.019281,
+   "medium": 0.267934
+  },
+  "level": "high"
+ },
+ {
+  "input": {
+   "lotType": "Hospital",
+   "capacity": 90.0,
+   "price": 35.0,
+   "date": "2025-12-28",
+   "hour": 9
+  },
+  "probabilities": {
+   "high": 0.130946,
+   "low": 0.017782,
+   "medium": 0.851273
+  },
+  "level": "medium"
+ },
+ {
+  "input": {
+   "lotType": "Mall",
+   "capacity": 62.0,
+   "price": 50.0,
+   "date": "2025-11-02",
+   "hour": 0
+  },
+  "probabilities": {
+   "high": 0.003947,
+   "low": 0.981073,
+   "medium": 0.01498
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Mall",
+   "capacity": 150.0,
+   "price": 25.0,
+   "date": "2025-11-12",
+   "hour": 17
+  },
+  "probabilities": {
+   "high": 0.385772,
+   "low": 0.014579,
+   "medium": 0.599649
+  },
+  "level": "medium"
+ },
+ {
+  "input": {
+   "lotType": "Office",
+   "capacity": 24.0,
+   "price": 20.0,
+   "date": "2025-12-17",
+   "hour": 22
+  },
+  "probabilities": {
+   "high": 0.00582,
+   "low": 0.863942,
+   "medium": 0.130238
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Office",
+   "capacity": 24.0,
+   "price": 20.0,
+   "date": "2025-12-14",
+   "hour": 13
+  },
+  "probabilities": {
+   "high": 0.0,
+   "low": 0.991222,
+   "medium": 0.008778
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Event",
+   "capacity": 200.0,
+   "price": 60.0,
+   "date": "2025-12-03",
+   "hour": 21
+  },
+  "probabilities": {
+   "high": 0.034927,
+   "low": 0.569197,
+   "medium": 0.395877
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Mall",
+   "capacity": 62.0,
+   "price": 50.0,
+   "date": "2025-12-19",
+   "hour": 6
+  },
+  "probabilities": {
+   "high": 0.0,
+   "low": 0.980716,
+   "medium": 0.019284
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Event",
+   "capacity": 52.0,
+   "price": 35.0,
+   "date": "2025-12-11",
+   "hour": 1
+  },
+  "probabilities": {
+   "high": 0.0,
+   "low": 1.0,
+   "medium": 0.0
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Event",
+   "capacity": 52.0,
+   "price": 35.0,
+   "date": "2025-12-20",
+   "hour": 8
+  },
+  "probabilities": {
+   "high": 0.009649,
+   "low": 0.971757,
+   "medium": 0.018594
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Transit",
+   "capacity": 40.0,
+   "price": 15.0,
+   "date": "2025-12-06",
+   "hour": 15
+  },
+  "probabilities": {
+   "high": 0.0,
+   "low": 0.371329,
+   "medium": 0.628671
+  },
+  "level": "medium"
+ },
+ {
+  "input": {
+   "lotType": "Mall",
+   "capacity": 48.0,
+   "price": 40.0,
+   "date": "2025-11-25",
+   "hour": 20
+  },
+  "probabilities": {
+   "high": 0.165506,
+   "low": 0.102423,
+   "medium": 0.732071
+  },
+  "level": "medium"
+ },
+ {
+  "input": {
+   "lotType": "Hospital",
+   "capacity": 90.0,
+   "price": 35.0,
+   "date": "2025-11-25",
+   "hour": 8
+  },
+  "probabilities": {
+   "high": 0.678134,
+   "low": 0.017673,
+   "medium": 0.304192
+  },
+  "level": "high"
+ },
+ {
+  "input": {
+   "lotType": "Mall",
+   "capacity": 150.0,
+   "price": 25.0,
+   "date": "2025-11-17",
+   "hour": 9
+  },
+  "probabilities": {
+   "high": 0.004772,
+   "low": 0.943822,
+   "medium": 0.051405
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Office",
+   "capacity": 120.0,
+   "price": 45.0,
+   "date": "2025-12-23",
+   "hour": 23
+  },
+  "probabilities": {
+   "high": 0.0,
+   "low": 0.99632,
+   "medium": 0.00368
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Office",
+   "capacity": 24.0,
+   "price": 20.0,
+   "date": "2025-11-25",
+   "hour": 18
+  },
+  "probabilities": {
+   "high": 0.136163,
+   "low": 0.14196,
+   "medium": 0.721877
+  },
+  "level": "medium"
+ },
+ {
+  "input": {
+   "lotType": "Transit",
+   "capacity": 80.0,
+   "price": 20.0,
+   "date": "2025-12-08",
+   "hour": 6
+  },
+  "probabilities": {
+   "high": 0.261474,
+   "low": 0.078968,
+   "medium": 0.659558
+  },
+  "level": "medium"
+ },
+ {
+  "input": {
+   "lotType": "Mall",
+   "capacity": 48.0,
+   "price": 40.0,
+   "date": "2025-11-17",
+   "hour": 9
+  },
+  "probabilities": {
+   "high": 0.006174,
+   "low": 0.938626,
+   "medium": 0.0552
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Hospital",
+   "capacity": 90.0,
+   "price": 35.0,
+   "date": "2025-11-13",
+   "hour": 12
+  },
+  "probabilities": {
+   "high": 0.628983,
+   "low": 0.001325,
+   "medium": 0.369692
+  },
+  "level": "high"
+ },
+ {
+  "input": {
+   "lotType": "Event",
+   "capacity": 52.0,
+   "price": 35.0,
+   "date": "2025-12-14",
+   "hour": 1
+  },
+  "probabilities": {
+   "high": 0.0,
+   "low": 0.994711,
+   "medium": 0.005289
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Office",
+   "capacity": 36.0,
+   "price": 30.0,
+   "date": "2025-11-01",
+   "hour": 14
+  },
+  "probabilities": {
+   "high": 0.0,
+   "low": 0.841732,
+   "medium": 0.158268
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Hospital",
+   "capacity": 90.0,
+   "price": 35.0,
+   "date": "2025-12-23",
+   "hour": 17
+  },
+  "probabilities": {
+   "high": 0.799252,
+   "low": 0.003683,
+   "medium": 0.197065
+  },
+  "level": "high"
+ },
+ {
+  "input": {
+   "lotType": "Event",
+   "capacity": 52.0,
+   "price": 35.0,
+   "date": "2025-12-29",
+   "hour": 1
+  },
+  "probabilities": {
+   "high": 0.0,
+   "low": 1.0,
+   "medium": 0.0
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Event",
+   "capacity": 52.0,
+   "price": 35.0,
+   "date": "2025-12-11",
+   "hour": 0
+  },
+  "probabilities": {
+   "high": 0.0,
+   "low": 1.0,
+   "medium": 0.0
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Hospital",
+   "capacity": 90.0,
+   "price": 35.0,
+   "date": "2025-11-08",
+   "hour": 10
+  },
+  "probabilities": {
+   "high": 0.109542,
+   "low": 0.028332,
+   "medium": 0.862126
+  },
+  "level": "medium"
+ },
+ {
+  "input": {
+   "lotType": "Mall",
+   "capacity": 62.0,
+   "price": 50.0,
+   "date": "2025-12-30",
+   "hour": 13
+  },
+  "probabilities": {
+   "high": 0.002758,
+   "low": 0.519256,
+   "medium": 0.477986
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Event",
+   "capacity": 52.0,
+   "price": 35.0,
+   "date": "2025-12-30",
+   "hour": 11
+  },
+  "probabilities": {
+   "high": 0.0,
+   "low": 0.992689,
+   "medium": 0.007311
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Event",
+   "capacity": 52.0,
+   "price": 35.0,
+   "date": "2025-11-22",
+   "hour": 5
+  },
+  "probabilities": {
+   "high": 0.009649,
+   "low": 0.981292,
+   "medium": 0.009059
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Mall",
+   "capacity": 48.0,
+   "price": 40.0,
+   "date": "2025-12-30",
+   "hour": 21
+  },
+  "probabilities": {
+   "high": 0.071369,
+   "low": 0.36036,
+   "medium": 0.568271
+  },
+  "level": "medium"
+ },
+ {
+  "input": {
+   "lotType": "Mall",
+   "capacity": 150.0,
+   "price": 25.0,
+   "date": "2025-11-29",
+   "hour": 19
+  },
+  "probabilities": {
+   "high": 0.188018,
+   "low": 0.052912,
+   "medium": 0.759069
+  },
+  "level": "medium"
+ },
+ {
+  "input": {
+   "lotType": "Office",
+   "capacity": 24.0,
+   "price": 20.0,
+   "date": "2025-11-22",
+   "hour": 1
+  },
+  "probabilities": {
+   "high": 0.0,
+   "low": 0.989548,
+   "medium": 0.010452
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Mall",
+   "capacity": 150.0,
+   "price": 25.0,
+   "date": "2025-12-31",
+   "hour": 18
+  },
+  "probabilities": {
+   "high": 0.388252,
+   "low": 0.014391,
+   "medium": 0.597357
+  },
+  "level": "medium"
+ },
+ {
+  "input": {
+   "lotType": "Mall",
+   "capacity": 150.0,
+   "price": 25.0,
+   "date": "2025-12-18",
+   "hour": 9
+  },
+  "probabilities": {
+   "high": 0.0,
+   "low": 0.945587,
+   "medium": 0.054413
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Event",
+   "capacity": 200.0,
+   "price": 60.0,
+   "date": "2025-11-15",
+   "hour": 17
+  },
+  "probabilities": {
+   "high": 0.118989,
+   "low": 0.84781,
+   "medium": 0.033201
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Mall",
+   "capacity": 150.0,
+   "price": 25.0,
+   "date": "2025-11-13",
+   "hour": 11
+  },
+  "probabilities": {
+   "high": 0.01221,
+   "low": 0.232052,
+   "medium": 0.755738
+  },
+  "level": "medium"
+ },
+ {
+  "input": {
+   "lotType": "Mall",
+   "capacity": 150.0,
+   "price": 25.0,
+   "date": "2025-12-13",
+   "hour": 9
+  },
+  "probabilities": {
+   "high": 0.12039,
+   "low": 0.692773,
+   "medium": 0.186837
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Mall",
+   "capacity": 62.0,
+   "price": 50.0,
+   "date": "2025-12-15",
+   "hour": 11
+  },
+  "probabilities": {
+   "high": 0.003189,
+   "low": 0.471395,
+   "medium": 0.525416
+  },
+  "level": "medium"
+ },
+ {
+  "input": {
+   "lotType": "Mall",
+   "capacity": 150.0,
+   "price": 25.0,
+   "date": "2025-12-16",
+   "hour": 12
+  },
+  "probabilities": {
+   "high": 0.02013,
+   "low": 0.272864,
+   "medium": 0.707006
+  },
+  "level": "medium"
+ },
+ {
+  "input": {
+   "lotType": "Mall",
+   "capacity": 150.0,
+   "price": 25.0,
+   "date": "2025-11-01",
+   "hour": 8
+  },
+  "probabilities": {
+   "high": 0.090755,
+   "low": 0.739729,
+   "medium": 0.169517
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Event",
+   "capacity": 200.0,
+   "price": 60.0,
+   "date": "2025-11-17",
+   "hour": 12
+  },
+  "probabilities": {
+   "high": 0.0,
+   "low": 0.991618,
+   "medium": 0.008382
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Transit",
+   "capacity": 80.0,
+   "price": 20.0,
+   "date": "2025-11-16",
+   "hour": 2
+  },
+  "probabilities": {
+   "high": 0.0,
+   "low": 0.98592,
+   "medium": 0.01408
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Mall",
+   "capacity": 48.0,
+   "price": 40.0,
+   "date": "2025-12-06",
+   "hour": 16
+  },
+  "probabilities": {
+   "high": 0.791104,
+   "low": 0.011368,
+   "medium": 0.197528
+  },
+  "level": "high"
+ },
+ {
+  "input": {
+   "lotType": "Event",
+   "capacity": 200.0,
+   "price": 60.0,
+   "date": "2025-12-31",
+   "hour": 17
+  },
+  "probabilities": {
+   "high": 0.0,
+   "low": 0.993815,
+   "medium": 0.006185
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Office",
+   "capacity": 120.0,
+   "price": 45.0,
+   "date": "2025-12-15",
+   "hour": 17
+  },
+  "probabilities": {
+   "high": 0.084422,
+   "low": 0.172008,
+   "medium": 0.74357
+  },
+  "level": "medium"
+ },
+ {
+  "input": {
+   "lotType": "Transit",
+   "capacity": 80.0,
+   "price": 20.0,
+   "date": "2025-12-03",
+   "hour": 1
+  },
+  "probabilities": {
+   "high": 0.002887,
+   "low": 0.95837,
+   "medium": 0.038744
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Hospital",
+   "capacity": 40.0,
+   "price": 25.0,
+   "date": "2025-12-27",
+   "hour": 14
+  },
+  "probabilities": {
+   "high": 0.175989,
+   "low": 0.005967,
+   "medium": 0.818044
+  },
+  "level": "medium"
+ },
+ {
+  "input": {
+   "lotType": "Mall",
+   "capacity": 48.0,
+   "price": 40.0,
+   "date": "2025-11-10",
+   "hour": 14
+  },
+  "probabilities": {
+   "high": 0.025935,
+   "low": 0.641523,
+   "medium": 0.332543
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Event",
+   "capacity": 200.0,
+   "price": 60.0,
+   "date": "2025-11-12",
+   "hour": 11
+  },
+  "probabilities": {
+   "high": 0.0,
+   "low": 0.998227,
+   "medium": 0.001773
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Hospital",
+   "capacity": 40.0,
+   "price": 25.0,
+   "date": "2025-11-11",
+   "hour": 7
+  },
+  "probabilities": {
+   "high": 0.049192,
+   "low": 0.546068,
+   "medium": 0.40474
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Event",
+   "capacity": 200.0,
+   "price": 60.0,
+   "date": "2025-11-11",
+   "hour": 5
+  },
+  "probabilities": {
+   "high": 0.0,
+   "low": 1.0,
+   "medium": 0.0
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Event",
+   "capacity": 200.0,
+   "price": 60.0,
+   "date": "2025-11-06",
+   "hour": 5
+  },
+  "probabilities": {
+   "high": 0.0,
+   "low": 1.0,
+   "medium": 0.0
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Office",
+   "capacity": 120.0,
+   "price": 45.0,
+   "date": "2025-12-02",
+   "hour": 23
+  },
+  "probabilities": {
+   "high": 0.0,
+   "low": 0.99632,
+   "medium": 0.00368
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Transit",
+   "capacity": 80.0,
+   "price": 20.0,
+   "date": "2025-11-12",
+   "hour": 3
+  },
+  "probabilities": {
+   "high": 0.002887,
+   "low": 0.957916,
+   "medium": 0.039197
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Event",
+   "capacity": 52.0,
+   "price": 35.0,
+   "date": "2025-12-17",
+   "hour": 23
+  },
+  "probabilities": {
+   "high": 0.023675,
+   "low": 0.233192,
+   "medium": 0.743133
+  },
+  "level": "medium"
+ },
+ {
+  "input": {
+   "lotType": "Hospital",
+   "capacity": 40.0,
+   "price": 25.0,
+   "date": "2025-12-17",
+   "hour": 13
+  },
+  "probabilities": {
+   "high": 0.501395,
+   "low": 0.000492,
+   "medium": 0.498113
+  },
+  "level": "high"
+ },
+ {
+  "input": {
+   "lotType": "Event",
+   "capacity": 200.0,
+   "price": 60.0,
+   "date": "2025-11-23",
+   "hour": 11
+  },
+  "probabilities": {
+   "high": 0.0,
+   "low": 0.986995,
+   "medium": 0.013005
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Hospital",
+   "capacity": 90.0,
+   "price": 35.0,
+   "date": "2025-12-26",
+   "hour": 2
+  },
+  "probabilities": {
+   "high": 0.0,
+   "low": 0.865528,
+   "medium": 0.134472
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Event",
+   "capacity": 200.0,
+   "price": 60.0,
+   "date": "2025-12-15",
+   "hour": 7
+  },
+  "probabilities": {
+   "high": 0.0,
+   "low": 0.997024,
+   "medium": 0.002976
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Office",
+   "capacity": 24.0,
+   "price": 20.0,
+   "date": "2025-12-16",
+   "hour": 18
+  },
+  "probabilities": {
+   "high": 0.136163,
+   "low": 0.14196,
+   "medium": 0.721877
+  },
+  "level": "medium"
+ },
+ {
+  "input": {
+   "lotType": "Office",
+   "capacity": 120.0,
+   "price": 45.0,
+   "date": "2025-11-02",
+   "hour": 13
+  },
+  "probabilities": {
+   "high": 0.0,
+   "low": 1.0,
+   "medium": 0.0
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Transit",
+   "capacity": 80.0,
+   "price": 20.0,
+   "date": "2025-11-01",
+   "hour": 10
+  },
+  "probabilities": {
+   "high": 0.0,
+   "low": 0.576381,
+   "medium": 0.423619
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Mall",
+   "capacity": 150.0,
+   "price": 25.0,
+   "date": "2025-12-25",
+   "hour": 6
+  },
+  "probabilities": {
+   "high": 0.0,
+   "low": 0.965563,
+   "medium": 0.034437
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Office",
+   "capacity": 36.0,
+   "price": 30.0,
+   "date": "2025-11-14",
+   "hour": 21
+  },
+  "probabilities": {
+   "high": 0.023424,
+   "low": 0.881947,
+   "medium": 0.09463
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Transit",
+   "capacity": 40.0,
+   "price": 15.0,
+   "date": "2025-12-08",
+   "hour": 11
+  },
+  "probabilities": {
+   "high": 0.982362,
+   "low": 0.002083,
+   "medium": 0.015554
+  },
+  "level": "high"
+ },
+ {
+  "input": {
+   "lotType": "Office",
+   "capacity": 120.0,
+   "price": 45.0,
+   "date": "2025-11-16",
+   "hour": 1
+  },
+  "probabilities": {
+   "high": 0.0,
+   "low": 1.0,
+   "medium": 0.0
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Mall",
+   "capacity": 48.0,
+   "price": 40.0,
+   "date": "2025-12-05",
+   "hour": 18
+  },
+  "probabilities": {
+   "high": 0.204604,
+   "low": 0.034692,
+   "medium": 0.760704
+  },
+  "level": "medium"
+ },
+ {
+  "input": {
+   "lotType": "Transit",
+   "capacity": 40.0,
+   "price": 15.0,
+   "date": "2025-11-04",
+   "hour": 1
+  },
+  "probabilities": {
+   "high": 0.023662,
+   "low": 0.909777,
+   "medium": 0.066561
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Office",
+   "capacity": 24.0,
+   "price": 20.0,
+   "date": "2025-11-10",
+   "hour": 17
+  },
+  "probabilities": {
+   "high": 0.187551,
+   "low": 0.131643,
+   "medium": 0.680806
+  },
+  "level": "medium"
+ },
+ {
+  "input": {
+   "lotType": "Mall",
+   "capacity": 62.0,
+   "price": 50.0,
+   "date": "2025-11-07",
+   "hour": 9
+  },
+  "probabilities": {
+   "high": 0.000794,
+   "low": 0.943752,
+   "medium": 0.055454
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Office",
+   "capacity": 24.0,
+   "price": 20.0,
+   "date": "2025-12-30",
+   "hour": 18
+  },
+  "probabilities": {
+   "high": 0.136163,
+   "low": 0.14196,
+   "medium": 0.721877
+  },
+  "level": "medium"
+ },
+ {
+  "input": {
+   "lotType": "Office",
+   "capacity": 120.0,
+   "price": 45.0,
+   "date": "2025-12-20",
+   "hour": 11
+  },
+  "probabilities": {
+   "high": 0.0,
+   "low": 0.990013,
+   "medium": 0.009987
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Transit",
+   "capacity": 80.0,
+   "price": 20.0,
+   "date": "2025-11-22",
+   "hour": 12
+  },
+  "probabilities": {
+   "high": 0.0,
+   "low": 0.568645,
+   "medium": 0.431355
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Transit",
+   "capacity": 80.0,
+   "price": 20.0,
+   "date": "2025-12-08",
+   "hour": 13
+  },
+  "probabilities": {
+   "high": 0.98437,
+   "low": 0.000661,
+   "medium": 0.014969
+  },
+  "level": "high"
+ },
+ {
+  "input": {
+   "lotType": "Office",
+   "capacity": 24.0,
+   "price": 20.0,
+   "date": "2025-11-24",
+   "hour": 1
+  },
+  "probabilities": {
+   "high": 0.018961,
+   "low": 0.94325,
+   "medium": 0.037789
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Transit",
+   "capacity": 40.0,
+   "price": 15.0,
+   "date": "2025-12-13",
+   "hour": 3
+  },
+  "probabilities": {
+   "high": 0.0,
+   "low": 0.94174,
+   "medium": 0.05826
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Hospital",
+   "capacity": 90.0,
+   "price": 35.0,
+   "date": "2025-11-16",
+   "hour": 15
+  },
+  "probabilities": {
+   "high": 0.073716,
+   "low": 0.002246,
+   "medium": 0.924038
+  },
+  "level": "medium"
+ },
+ {
+  "input": {
+   "lotType": "Office",
+   "capacity": 36.0,
+   "price": 30.0,
+   "date": "2025-12-04",
+   "hour": 6
+  },
+  "probabilities": {
+   "high": 0.0,
+   "low": 0.965287,
+   "medium": 0.034713
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Event",
+   "capacity": 52.0,
+   "price": 35.0,
+   "date": "2025-11-22",
+   "hour": 9
+  },
+  "probabilities": {
+   "high": 0.009649,
+   "low": 0.971757,
+   "medium": 0.018594
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Transit",
+   "capacity": 40.0,
+   "price": 15.0,
+   "date": "2025-12-02",
+   "hour": 3
+  },
+  "probabilities": {
+   "high": 0.025884,
+   "low": 0.904469,
+   "medium": 0.069647
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Mall",
+   "capacity": 150.0,
+   "price": 25.0,
+   "date": "2025-11-26",
+   "hour": 8
+  },
+  "probabilities": {
+   "high": 0.003505,
+   "low": 0.966998,
+   "medium": 0.029497
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Office",
+   "capacity": 36.0,
+   "price": 30.0,
+   "date": "2025-11-16",
+   "hour": 14
+  },
+  "probabilities": {
+   "high": 0.0,
+   "low": 0.964101,
+   "medium": 0.035899
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Transit",
+   "capacity": 80.0,
+   "price": 20.0,
+   "date": "2025-12-17",
+   "hour": 4
+  },
+  "probabilities": {
+   "high": 0.002887,
+   "low": 0.941428,
+   "medium": 0.055685
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Event",
+   "capacity": 52.0,
+   "price": 35.0,
+   "date": "2025-11-11",
+   "hour": 2
+  },
+  "probabilities": {
+   "high": 0.0,
+   "low": 1.0,
+   "medium": 0.0
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Transit",
+   "capacity": 80.0,
+   "price": 20.0,
+   "date": "2025-11-06",
+   "hour": 22
+  },
+  "probabilities": {
+   "high": 0.027965,
+   "low": 0.862469,
+   "medium": 0.109566
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Mall",
+   "capacity": 62.0,
+   "price": 50.0,
+   "date": "2025-12-30",
+   "hour": 7
+  },
+  "probabilities": {
+   "high": 0.0,
+   "low": 0.97859,
+   "medium": 0.02141
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Transit",
+   "capacity": 80.0,
+   "price": 20.0,
+   "date": "2025-12-09",
+   "hour": 0
+  },
+  "probabilities": {
+   "high": 0.001418,
+   "low": 0.922139,
+   "medium": 0.076443
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Mall",
+   "capacity": 62.0,
+   "price": 50.0,
+   "date": "2025-12-05",
+   "hour": 1
+  },
+  "probabilities": {
+   "high": 0.0,
+   "low": 0.984606,
+   "medium": 0.015394
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Hospital",
+   "capacity": 90.0,
+   "price": 35.0,
+   "date": "2025-11-12",
+   "hour": 21
+  },
+  "probabilities": {
+   "high": 0.014637,
+   "low": 0.848028,
+   "medium": 0.137334
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Hospital",
+   "capacity": 40.0,
+   "price": 25.0,
+   "date": "2025-12-18",
+   "hour": 18
+  },
+  "probabilities": {
+   "high": 0.543753,
+   "low": 0.000265,
+   "medium": 0.455982
+  },
+  "level": "high"
+ },
+ {
+  "input": {
+   "lotType": "Mall",
+   "capacity": 62.0,
+   "price": 50.0,
+   "date": "2025-12-17",
+   "hour": 23
+  },
+  "probabilities": {
+   "high": 0.00876,
+   "low": 0.872141,
+   "medium": 0.119099
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Mall",
+   "capacity": 62.0,
+   "price": 50.0,
+   "date": "2025-12-18",
+   "hour": 17
+  },
+  "probabilities": {
+   "high": 0.149513,
+   "low": 0.040097,
+   "medium": 0.81039
+  },
+  "level": "medium"
+ },
+ {
+  "input": {
+   "lotType": "Mall",
+   "capacity": 150.0,
+   "price": 25.0,
+   "date": "2025-11-24",
+   "hour": 18
+  },
+  "probabilities": {
+   "high": 0.318783,
+   "low": 0.050893,
+   "medium": 0.630324
+  },
+  "level": "medium"
+ },
+ {
+  "input": {
+   "lotType": "Mall",
+   "capacity": 48.0,
+   "price": 40.0,
+   "date": "2025-12-20",
+   "hour": 10
+  },
+  "probabilities": {
+   "high": 0.185196,
+   "low": 0.068089,
+   "medium": 0.746715
+  },
+  "level": "medium"
+ },
+ {
+  "input": {
+   "lotType": "Mall",
+   "capacity": 150.0,
+   "price": 25.0,
+   "date": "2025-11-04",
+   "hour": 23
+  },
+  "probabilities": {
+   "high": 0.018195,
+   "low": 0.914396,
+   "medium": 0.067409
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Mall",
+   "capacity": 48.0,
+   "price": 40.0,
+   "date": "2025-12-07",
+   "hour": 20
+  },
+  "probabilities": {
+   "high": 0.086576,
+   "low": 0.09922,
+   "medium": 0.814204
+  },
+  "level": "medium"
+ },
+ {
+  "input": {
+   "lotType": "Event",
+   "capacity": 200.0,
+   "price": 60.0,
+   "date": "2025-11-02",
+   "hour": 2
+  },
+  "probabilities": {
+   "high": 0.0,
+   "low": 0.99771,
+   "medium": 0.00229
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Office",
+   "capacity": 120.0,
+   "price": 45.0,
+   "date": "2025-12-30",
+   "hour": 19
+  },
+  "probabilities": {
+   "high": 0.012364,
+   "low": 0.909519,
+   "medium": 0.078117
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Mall",
+   "capacity": 62.0,
+   "price": 50.0,
+   "date": "2025-11-30",
+   "hour": 3
+  },
+  "probabilities": {
+   "high": 0.003947,
+   "low": 0.981073,
+   "medium": 0.01498
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Mall",
+   "capacity": 150.0,
+   "price": 25.0,
+   "date": "2025-12-04",
+   "hour": 4
+  },
+  "probabilities": {
+   "high": 0.0,
+   "low": 0.995634,
+   "medium": 0.004366
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Hospital",
+   "capacity": 40.0,
+   "price": 25.0,
+   "date": "2025-11-09",
+   "hour": 0
+  },
+  "probabilities": {
+   "high": 0.000362,
+   "low": 0.658243,
+   "medium": 0.341395
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Mall",
+   "capacity": 150.0,
+   "price": 25.0,
+   "date": "2025-11-20",
+   "hour": 12
+  },
+  "probabilities": {
+   "high": 0.013591,
+   "low": 0.234556,
+   "medium": 0.751854
+  },
+  "level": "medium"
+ },
+ {
+  "input": {
+   "lotType": "Event",
+   "capacity": 200.0,
+   "price": 60.0,
+   "date": "2025-11-07",
+   "hour": 11
+  },
+  "probabilities": {
+   "high": 0.004023,
+   "low": 0.995977,
+   "medium": 0.0
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Mall",
+   "capacity": 150.0,
+   "price": 25.0,
+   "date": "2025-11-27",
+   "hour": 19
+  },
+  "probabilities": {
+   "high": 0.420675,
+   "low": 0.015159,
+   "medium": 0.564166
+  },
+  "level": "medium"
+ },
+ {
+  "input": {
+   "lotType": "Hospital",
+   "capacity": 90.0,
+   "price": 35.0,
+   "date": "2025-12-20",
+   "hour": 4
+  },
+  "probabilities": {
+   "high": 0.00098,
+   "low": 0.843907,
+   "medium": 0.155113
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Mall",
+   "capacity": 62.0,
+   "price": 50.0,
+   "date": "2025-11-12",
+   "hour": 2
+  },
+  "probabilities": {
+   "high": 0.0,
+   "low": 0.997549,
+   "medium": 0.002451
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Transit",
+   "capacity": 80.0,
+   "price": 20.0,
+   "date": "2025-12-06",
+   "hour": 15
+  },
+  "probabilities": {
+   "high": 0.009,
+   "low": 0.525223,
+   "medium": 0.465777
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Hospital",
+   "capacity": 90.0,
+   "price": 35.0,
+   "date": "2025-12-29",
+   "hour": 9
+  },
+  "probabilities": {
+   "high": 0.415808,
+   "low": 0.006638,
+   "medium": 0.577554
+  },
+  "level": "medium"
+ },
+ {
+  "input": {
+   "lotType": "Event",
+   "capacity": 52.0,
+   "price": 35.0,
+   "date": "2025-11-28",
+   "hour": 17
+  },
+  "probabilities": {
+   "high": 0.022621,
+   "low": 0.924804,
+   "medium": 0.052575
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Event",
+   "capacity": 200.0,
+   "price": 60.0,
+   "date": "2025-12-05",
+   "hour": 18
+  },
+  "probabilities": {
+   "high": 0.887645,
+   "low": 0.044512,
+   "medium": 0.067842
+  },
+  "level": "high"
+ },
+ {
+  "input": {
+   "lotType": "Mall",
+   "capacity": 150.0,
+   "price": 25.0,
+   "date": "2025-11-04",
+   "hour": 3
+  },
+  "probabilities": {
+   "high": 0.0,
+   "low": 0.99966,
+   "medium": 0.00034
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Transit",
+   "capacity": 40.0,
+   "price": 15.0,
+   "date": "2025-11-27",
+   "hour": 0
+  },
+  "probabilities": {
+   "high": 0.015909,
+   "low": 0.874732,
+   "medium": 0.109359
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Office",
+   "capacity": 120.0,
+   "price": 45.0,
+   "date": "2025-12-30",
+   "hour": 20
+  },
+  "probabilities": {
+   "high": 0.005882,
+   "low": 0.965313,
+   "medium": 0.028805
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Transit",
+   "capacity": 40.0,
+   "price": 15.0,
+   "date": "2025-12-03",
+   "hour": 7
+  },
+  "probabilities": {
+   "high": 0.875245,
+   "low": 0.015754,
+   "medium": 0.109001
+  },
+  "level": "high"
+ },
+ {
+  "input": {
+   "lotType": "Hospital",
+   "capacity": 90.0,
+   "price": 35.0,
+   "date": "2025-11-03",
+   "hour": 6
+  },
+  "probabilities": {
+   "high": 0.002137,
+   "low": 0.786833,
+   "medium": 0.21103
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Event",
+   "capacity": 52.0,
+   "price": 35.0,
+   "date": "2025-11-22",
+   "hour": 16
+  },
+  "probabilities": {
+   "high": 0.041854,
+   "low": 0.657919,
+   "medium": 0.300227
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Event",
+   "capacity": 52.0,
+   "price": 35.0,
+   "date": "2025-12-17",
+   "hour": 22
+  },
+  "probabilities": {
+   "high": 0.035915,
+   "low": 0.233983,
+   "medium": 0.730103
+  },
+  "level": "medium"
+ },
+ {
+  "input": {
+   "lotType": "Hospital",
+   "capacity": 90.0,
+   "price": 35.0,
+   "date": "2025-12-25",
+   "hour": 5
+  },
+  "probabilities": {
+   "high": 0.0,
+   "low": 0.818287,
+   "medium": 0.181713
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Office",
+   "capacity": 24.0,
+   "price": 20.0,
+   "date": "2025-11-16",
+   "hour": 3
+  },
+  "probabilities": {
+   "high": 0.0,
+   "low": 0.948613,
+   "medium": 0.051387
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Office",
+   "capacity": 36.0,
+   "price": 30.0,
+   "date": "2025-12-01",
+   "hour": 15
+  },
+  "probabilities": {
+   "high": 0.658156,
+   "low": 0.010506,
+   "medium": 0.331337
+  },
+  "level": "high"
+ },
+ {
+  "input": {
+   "lotType": "Mall",
+   "capacity": 150.0,
+   "price": 25.0,
+   "date": "2025-12-04",
+   "hour": 23
+  },
+  "probabilities": {
+   "high": 0.021024,
+   "low": 0.880602,
+   "medium": 0.098374
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Mall",
+   "capacity": 48.0,
+   "price": 40.0,
+   "date": "2025-11-04",
+   "hour": 13
+  },
+  "probabilities": {
+   "high": 0.008648,
+   "low": 0.656371,
+   "medium": 0.334982
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Office",
+   "capacity": 36.0,
+   "price": 30.0,
+   "date": "2025-11-13",
+   "hour": 23
+  },
+  "probabilities": {
+   "high": 0.004232,
+   "low": 0.922242,
+   "medium": 0.073526
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Mall",
+   "capacity": 48.0,
+   "price": 40.0,
+   "date": "2025-11-23",
+   "hour": 14
+  },
+  "probabilities": {
+   "high": 0.716052,
+   "low": 0.018634,
+   "medium": 0.265313
+  },
+  "level": "high"
+ },
+ {
+  "input": {
+   "lotType": "Mall",
+   "capacity": 48.0,
+   "price": 40.0,
+   "date": "2025-12-07",
+   "hour": 14
+  },
+  "probabilities": {
+   "high": 0.716052,
+   "low": 0.018634,
+   "medium": 0.265313
+  },
+  "level": "high"
+ },
+ {
+  "input": {
+   "lotType": "Hospital",
+   "capacity": 90.0,
+   "price": 35.0,
+   "date": "2025-11-13",
+   "hour": 16
+  },
+  "probabilities": {
+   "high": 0.586647,
+   "low": 0.002461,
+   "medium": 0.410892
+  },
+  "level": "high"
+ },
+ {
+  "input": {
+   "lotType": "Transit",
+   "capacity": 80.0,
+   "price": 20.0,
+   "date": "2025-12-28",
+   "hour": 16
+  },
+  "probabilities": {
+   "high": 0.009,
+   "low": 0.474497,
+   "medium": 0.516503
+  },
+  "level": "medium"
+ },
+ {
+  "input": {
+   "lotType": "Hospital",
+   "capacity": 40.0,
+   "price": 25.0,
+   "date": "2025-11-29",
+   "hour": 23
+  },
+  "probabilities": {
+   "high": 0.006451,
+   "low": 0.619661,
+   "medium": 0.373888
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Transit",
+   "capacity": 40.0,
+   "price": 15.0,
+   "date": "2025-11-30",
+   "hour": 20
+  },
+  "probabilities": {
+   "high": 0.0,
+   "low": 0.798824,
+   "medium": 0.201176
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Hospital",
+   "capacity": 90.0,
+   "price": 35.0,
+   "date": "2025-12-12",
+   "hour": 13
+  },
+  "probabilities": {
+   "high": 0.52337,
+   "low": 0.001642,
+   "medium": 0.474988
+  },
+  "level": "high"
+ },
+ {
+  "input": {
+   "lotType": "Mall",
+   "capacity": 150.0,
+   "price": 25.0,
+   "date": "2025-11-03",
+   "hour": 14
+  },
+  "probabilities": {
+   "high": 0.025942,
+   "low": 0.337958,
+   "medium": 0.6361
+  },
+  "level": "medium"
+ },
+ {
+  "input": {
+   "lotType": "Hospital",
+   "capacity": 90.0,
+   "price": 35.0,
+   "date": "2025-11-11",
+   "hour": 15
+  },
+  "probabilities": {
+   "high": 0.767776,
+   "low": 0.001607,
+   "medium": 0.230617
+  },
+  "level": "high"
+ },
+ {
+  "input": {
+   "lotType": "Office",
+   "capacity": 24.0,
+   "price": 20.0,
+   "date": "2025-11-09",
+   "hour": 14
+  },
+  "probabilities": {
+   "high": 0.0,
+   "low": 0.988354,
+   "medium": 0.011646
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Hospital",
+   "capacity": 90.0,
+   "price": 35.0,
+   "date": "2025-11-07",
+   "hour": 8
+  },
+  "probabilities": {
+   "high": 0.424134,
+   "low": 0.019436,
+   "medium": 0.55643
+  },
+  "level": "medium"
+ },
+ {
+  "input": {
+   "lotType": "Event",
+   "capacity": 52.0,
+   "price": 35.0,
+   "date": "2025-11-05",
+   "hour": 20
+  },
+  "probabilities": {
+   "high": 0.02815,
+   "low": 0.268374,
+   "medium": 0.703476
+  },
+  "level": "medium"
+ },
+ {
+  "input": {
+   "lotType": "Hospital",
+   "capacity": 90.0,
+   "price": 35.0,
+   "date": "2025-11-25",
+   "hour": 4
+  },
+  "probabilities": {
+   "high": 0.0,
+   "low": 0.675134,
+   "medium": 0.324866
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Hospital",
+   "capacity": 40.0,
+   "price": 25.0,
+   "date": "2025-12-11",
+   "hour": 9
+  },
+  "probabilities": {
+   "high": 0.478929,
+   "low": 0.005153,
+   "medium": 0.515918
+  },
+  "level": "medium"
+ },
+ {
+  "input": {
+   "lotType": "Event",
+   "capacity": 200.0,
+   "price": 60.0,
+   "date": "2025-11-24",
+   "hour": 15
+  },
+  "probabilities": {
+   "high": 0.0,
+   "low": 0.991618,
+   "medium": 0.008382
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Mall",
+   "capacity": 150.0,
+   "price": 25.0,
+   "date": "2025-11-05",
+   "hour": 13
+  },
+  "probabilities": {
+   "high": 0.03052,
+   "low": 0.333929,
+   "medium": 0.635551
+  },
+  "level": "medium"
+ },
+ {
+  "input": {
+   "lotType": "Mall",
+   "capacity": 62.0,
+   "price": 50.0,
+   "date": "2025-11-17",
+   "hour": 10
+  },
+  "probabilities": {
+   "high": 0.002604,
+   "low": 0.49511,
+   "medium": 0.502286
+  },
+  "level": "medium"
+ },
+ {
+  "input": {
+   "lotType": "Mall",
+   "capacity": 48.0,
+   "price": 40.0,
+   "date": "2025-11-23",
+   "hour": 1
+  },
+  "probabilities": {
+   "high": 0.002315,
+   "low": 0.989021,
+   "medium": 0.008664
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Office",
+   "capacity": 36.0,
+   "price": 30.0,
+   "date": "2025-11-05",
+   "hour": 23
+  },
+  "probabilities": {
+   "high": 0.000439,
+   "low": 0.965406,
+   "medium": 0.034155
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Transit",
+   "capacity": 40.0,
+   "price": 15.0,
+   "date": "2025-12-25",
+   "hour": 12
+  },
+  "probabilities": {
+   "high": 0.925742,
+   "low": 0.0,
+   "medium": 0.074258
+  },
+  "level": "high"
+ },
+ {
+  "input": {
+   "lotType": "Hospital",
+   "capacity": 40.0,
+   "price": 25.0,
+   "date": "2025-11-28",
+   "hour": 19
+  },
+  "probabilities": {
+   "high": 0.60121,
+   "low": 0.015889,
+   "medium": 0.382901
+  },
+  "level": "high"
+ },
+ {
+  "input": {
+   "lotType": "Office",
+   "capacity": 120.0,
+   "price": 45.0,
+   "date": "2025-12-24",
+   "hour": 20
+  },
+  "probabilities": {
+   "high": 0.009697,
+   "low": 0.945157,
+   "medium": 0.045146
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Mall",
+   "capacity": 48.0,
+   "price": 40.0,
+   "date": "2025-12-29",
+   "hour": 22
+  },
+  "probabilities": {
+   "high": 0.034788,
+   "low": 0.814982,
+   "medium": 0.15023
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Mall",
+   "capacity": 48.0,
+   "price": 40.0,
+   "date": "2025-12-29",
+   "hour": 12
+  },
+  "probabilities": {
+   "high": 0.025935,
+   "low": 0.608466,
+   "medium": 0.3656
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Mall",
+   "capacity": 48.0,
+   "price": 40.0,
+   "date": "2025-11-14",
+   "hour": 20
+  },
+  "probabilities": {
+   "high": 0.171612,
+   "low": 0.084195,
+   "medium": 0.744192
+  },
+  "level": "medium"
+ },
+ {
+  "input": {
+   "lotType": "Transit",
+   "capacity": 80.0,
+   "price": 20.0,
+   "date": "2025-12-07",
+   "hour": 8
+  },
+  "probabilities": {
+   "high": 0.0,
+   "low": 0.541835,
+   "medium": 0.458165
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Mall",
+   "capacity": 62.0,
+   "price": 50.0,
+   "date": "2025-11-17",
+   "hour": 21
+  },
+  "probabilities": {
+   "high": 0.026333,
+   "low": 0.425752,
+   "medium": 0.547915
+  },
+  "level": "medium"
+ },
+ {
+  "input": {
+   "lotType": "Transit",
+   "capacity": 80.0,
+   "price": 20.0,
+   "date": "2025-12-22",
+   "hour": 12
+  },
+  "probabilities": {
+   "high": 0.986872,
+   "low": 0.000661,
+   "medium": 0.012467
+  },
+  "level": "high"
+ },
+ {
+  "input": {
+   "lotType": "Office",
+   "capacity": 36.0,
+   "price": 30.0,
+   "date": "2025-11-14",
+   "hour": 12
+  },
+  "probabilities": {
+   "high": 0.867635,
+   "low": 0.003152,
+   "medium": 0.129213
+  },
+  "level": "high"
+ },
+ {
+  "input": {
+   "lotType": "Office",
+   "capacity": 36.0,
+   "price": 30.0,
+   "date": "2025-11-26",
+   "hour": 9
+  },
+  "probabilities": {
+   "high": 0.771234,
+   "low": 0.00617,
+   "medium": 0.222595
+  },
+  "level": "high"
+ },
+ {
+  "input": {
+   "lotType": "Event",
+   "capacity": 200.0,
+   "price": 60.0,
+   "date": "2025-12-08",
+   "hour": 23
+  },
+  "probabilities": {
+   "high": 0.044978,
+   "low": 0.639921,
+   "medium": 0.315101
+  },
+  "level": "low"
+ },
+ {
+  "input": {
+   "lotType": "Mall",
+   "capacity": 150.0,
+   "price": 25.0,
+   "date": "2025-11-08",
+   "hour": 21
+  },
+  "probabilities": {
+   "high": 0.096768,
+   "low": 0.071721,
+   "medium": 0.831511
+  },
+  "level": "medium"
+ },
+ {
+  "input": {
+   "lotType": "Office",
+   "capacity": 36.0,
+   "price": 30.0,
+   "date": "2025-12-06",
+   "hour": 9
+  },
+  "probabilities": {
+   "high": 0.0,
+   "low": 0.895173,
+   "medium": 0.104827
+  },
+  "level": "low"
+ }
+]

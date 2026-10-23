@@ -1,0 +1,15 @@
+{
+  "clients": 50,
+  "rounds": 20,
+  "naive": {
+    "roundsWithDoubleBooking": 20,
+    "maxWinners": 50,
+    "totalWinners": 539
+  },
+  "parkease": {
+    "roundsWithDoubleBooking": 0,
+    "maxWinners": 1,
+    "totalWinners": 20,
+    "orphanBookings": 0
+  }
+}

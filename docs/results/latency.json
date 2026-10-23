@@ -1,0 +1,36 @@
+{
+  "api": "http://localhost:4001/api",
+  "date": "2026-11-22",
+  "results": {
+    "GET /health": {
+      "n": 100,
+      "p50": 2,
+      "p95": 3.1,
+      "max": 4.1
+    },
+    "GET /lots": {
+      "n": 100,
+      "p50": 4.4,
+      "p95": 6.7,
+      "max": 15.3
+    },
+    "GET /lots/:id/availability": {
+      "n": 100,
+      "p50": 4,
+      "p95": 7.1,
+      "max": 9.9
+    },
+    "GET /predictions/demand (24 h)": {
+      "n": 100,
+      "p50": 5.3,
+      "p95": 7.6,
+      "max": 11.2
+    },
+    "POST /bookings (transaction)": {
+      "n": 62,
+      "p50": 14.1,
+      "p95": 20.3,
+      "max": 29.9
+    }
+  }
+}

@@ -1,0 +1,75 @@
+PASS tests/ratelimit.test.js (8.466 s)
+  ✓ sign-in is limited to 20 attempts per 15 minutes per client (6927 ms)
+
+PASS tests/api.test.js
+  health and security headers
+    ✓ health reports database and model (88 ms)
+    ✓ helmet headers are set and x-powered-by is removed (6 ms)
+    ✓ CORS allows configured origins only (33 ms)
+    ✓ unknown routes, bad JSON and oversized bodies get clean errors (61 ms)
+  authentication
+    ✓ register validates input (9 ms)
+    ✓ register, duplicate email, login, me (741 ms)
+    ✓ wrong password and unknown email give the same answer (337 ms)
+    ✓ login rejects operator injection (2 ms)
+    ✓ invalid, forged and alg=none tokens are rejected (14 ms)
+    ✓ profile name can be updated (26 ms)
+  authorization
+    ✓ /api/admin/summary needs an admin (21 ms)
+    ✓ /api/admin/bookings needs an admin (18 ms)
+    ✓ /api/admin/events needs an admin (13 ms)
+    ✓ /api/admin/analytics/daily needs an admin (22 ms)
+    ✓ /api/admin/db/explain needs an admin (17 ms)
+    ✓ customers cannot create, edit or archive lots (18 ms)
+  parking lots (CRUD)
+    ✓ admin creates a lot with validation (30 ms)
+    ✓ list, filter, search and read one (25 ms)
+    ✓ query operators and bad ids are rejected (7 ms)
+    ✓ admin updates and archives a lot (34 ms)
+  bookings
+    ✓ validation: past start, bad spot, bad times, too far ahead, missing plate (40 ms)
+    ✓ a booking is created with a reference, amount and one segment per hour (31 ms)
+    ✓ overlapping booking of the same spot is refused; touching and other spots are allowed (86 ms)
+    ✓ the same vehicle cannot hold two spots at the same time (23 ms)
+    ✓ availability shows booked spots for the requested hours (27 ms)
+    ✓ history, cancel rules and freeing the spot (116 ms)
+    ✓ admins can cancel any upcoming booking (39 ms)
+    ✓ past bookings become Completed and started bookings cannot be cancelled (35 ms)
+  admin reports
+    ✓ summary aggregates by status (27 ms)
+    ✓ daily, hourly and per-lot analytics (34 ms)
+    ✓ availability query is served by an index (no collection scan) (9 ms)
+    ✓ audit events are recorded (7 ms)
+  demand predictions
+    ✓ requires sign-in (2 ms)
+    ✓ returns 24 hourly predictions with probabilities and a disclaimer (13 ms)
+    ✓ validates input and unknown lots (12 ms)
+    ✓ prediction never changes availability (19 ms)
+
+PASS tests/concurrency.test.js
+  ✓ 30 simultaneous requests for the same spot and time: exactly one succeeds (405 ms)
+  ✓ 30 simultaneous overlapping windows on one spot: no hour is ever double-booked (298 ms)
+  ✓ 30 simultaneous requests for 30 different spots: all succeed (247 ms)
+  ✓ simultaneous cancel and rebook of one spot never leaves two active bookings (116 ms)
+
+PASS tests/unit.test.js
+  slots
+    ✓ ids follow capacity in rows of ten (2 ms)
+    ✓ validation rejects spots outside the lot (1 ms)
+  time
+    ✓ calendar dates
+    ✓ current date and hour are taken in the configured zone (1 ms)
+  bookings helpers
+    ✓ references are well-formed and do not repeat (259 ms)
+    ✓ vehicle key ignores spacing and case
+    ✓ a booking has started once its start hour begins
+  demand model
+    ✓ model file is loaded with its metadata (66 ms)
+    ✓ Node inference matches scikit-learn on 300 held-out rows (50 ms)
+    ✓ probabilities sum to 1 (1 ms)
+
+Test Suites: 4 passed, 4 total
+Tests:       51 passed, 51 total
+Snapshots:   0 total
+Time:        14.054 s, estimated 15 s
+Ran all test suites.

@@ -1,0 +1,101 @@
+{
+  "data": {
+    "rows_by_source": {
+      "synthetic": 105120
+    },
+    "train_rows": 87552,
+    "test_rows": 17568,
+    "train_period": [
+      "2025-01-01",
+      "2025-10-31"
+    ],
+    "test_period": [
+      "2025-11-01",
+      "2025-12-31"
+    ],
+    "class_share_test": {
+      "low": 0.6325,
+      "medium": 0.186,
+      "high": 0.1815
+    },
+    "note": "Synthetic rows are simulated from documented assumptions in generate_synthetic.py, not observed parking data."
+  },
+  "model": {
+    "type": "RandomForestClassifier",
+    "n_estimators": 60,
+    "max_depth": 16,
+    "min_samples_leaf": 20,
+    "class_weight": "balanced",
+    "cv_macro_f1": 0.7852,
+    "sklearn_version": "1.9.1"
+  },
+  "test": {
+    "accuracy": 0.8618,
+    "macro_f1": 0.7992,
+    "weighted_f1": 0.863,
+    "per_class": {
+      "low": {
+        "precision": 0.9501,
+        "recall": 0.9345,
+        "f1-score": 0.9422,
+        "support": 11112.0
+      },
+      "medium": {
+        "precision": 0.6246,
+        "recall": 0.6441,
+        "f1-score": 0.6342,
+        "support": 3268.0
+      },
+      "high": {
+        "precision": 0.811,
+        "recall": 0.8316,
+        "f1-score": 0.8211,
+        "support": 3188.0
+      }
+    },
+    "confusion_matrix": {
+      "labels": [
+        "low",
+        "medium",
+        "high"
+      ],
+      "rows_are": "actual",
+      "columns_are": "predicted",
+      "matrix": [
+        [
+          10384,
+          728,
+          0
+        ],
+        [
+          545,
+          2105,
+          618
+        ],
+        [
+          0,
+          537,
+          2651
+        ]
+      ]
+    }
+  },
+  "baseline_most_frequent": {
+    "predicts": "low",
+    "accuracy": 0.6325,
+    "macro_f1": 0.2583
+  },
+  "feature_importance": {
+    "hour": 0.621,
+    "day_of_week": 0.0821,
+    "is_weekend": 0.0524,
+    "price": 0.0387,
+    "type_Mall": 0.0352,
+    "type_Event": 0.0346,
+    "capacity": 0.0342,
+    "type_Transit": 0.0265,
+    "month": 0.0262,
+    "type_Office": 0.0246,
+    "type_Hospital": 0.0244
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "segments": 200000,
+  "query": {
+    "lotId": "one of 20 lots",
+    "date": "2026-02-10",
+    "hour": {
+      "$gte": 9,
+      "$lt": 12
+    }
+  },
+  "collectionScan": {
+    "nReturned": 38,
+    "totalKeysExamined": 0,
+    "totalDocsExamined": 200000,
+    "medianTimeMs": 89
+  },
+  "indexScan": {
+    "nReturned": 38,
+    "totalKeysExamined": 38,
+    "totalDocsExamined": 38,
+    "medianTimeMs": 0
+  }
+}
